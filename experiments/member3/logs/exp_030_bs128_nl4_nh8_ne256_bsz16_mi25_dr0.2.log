@@ -1,0 +1,114 @@
+Experiment: exp_030_bs128_nl4_nh8_ne256_bsz16_mi25_dr0.2
+Config: experiments/member3/configs/exp_030_bs128_nl4_nh8_ne256_bsz16_mi25_dr0.2.py
+Started: Tue Oct 28 18:50:08 2025
+============================================================
+
+/workspaces/group-assignment/nanoGPT/train.py:196: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/home/codespace/.local/lib/python3.12/site-packages/torch/amp/grad_scaler.py:136: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
+  warnings.warn(
+Overriding config with config/train_shakespeare_char.py:
+# train a miniature character-level shakespeare model
+# good for debugging and playing on macbooks and such
+
+out_dir = 'out-shakespeare-char'
+eval_interval = 250 # keep frequent because we'll overfit
+eval_iters = 200
+log_interval = 10 # don't print too too often
+
+# we expect to overfit on this small dataset, so only save when val improves
+always_save_checkpoint = False
+
+wandb_log = False # override via command line if you like
+wandb_project = 'shakespeare-char'
+wandb_run_name = 'mini-gpt'
+
+dataset = 'shakespeare_char'
+gradient_accumulation_steps = 1
+batch_size = 64
+block_size = 256 # context of up to 256 previous characters
+
+# baby GPT model :)
+n_layer = 6
+n_head = 6
+n_embd = 384
+dropout = 0.2
+
+learning_rate = 1e-3 # with baby networks can afford to go a bit higher
+max_iters = 5000
+lr_decay_iters = 5000 # make equal to max_iters usually
+min_lr = 1e-4 # learning_rate / 10 usually
+beta2 = 0.99 # make a bit bigger because number of tokens per iter is small
+
+warmup_iters = 100 # not super necessary potentially
+
+# on macbook also add
+# device = 'cpu'  # run on cpu only
+# compile = False # do not torch compile the model
+
+Overriding config with ../experiments/member3/configs/exp_030_bs128_nl4_nh8_ne256_bsz16_mi25_dr0.2.py:
+# Experiment configuration
+dataset = "shakespeare_char"
+gradient_accumulation_steps = 1
+learning_rate = 0.001
+decay_lr = True
+warmup_iters = 10
+min_lr = 0.0001
+eval_interval = 10
+eval_iters = 20
+log_interval = 1
+always_save_checkpoint = False
+device = "cpu"
+compile = False
+block_size = 128
+n_layer = 4
+n_head = 8
+n_embd = 256
+batch_size = 16
+max_iters = 25
+dropout = 0.2
+lr_decay_iters = 25
+out_dir = "experiments/member3/results/exp_030_bs128_nl4_nh8_ne256_bsz16_mi25_dr0.2"
+
+tokens per iteration will be: 2,048
+found vocab_size = 65 (inside data/shakespeare_char/meta.pkl)
+Initializing a new model from scratch
+number of parameters: 3.16M
+num decayed parameter tensors: 18, with 3,195,136 parameters
+num non-decayed parameter tensors: 9, with 2,304 parameters
+using fused AdamW: False
+step 0: train loss 4.1812, val loss 4.1782
+iter 0: loss 4.2073, time 8633.55ms, mfu -100.00%
+iter 1: loss 3.8395, time 800.43ms, mfu -100.00%
+iter 2: loss 3.6124, time 746.89ms, mfu -100.00%
+iter 3: loss 3.4937, time 703.23ms, mfu -100.00%
+iter 4: loss 3.4222, time 747.59ms, mfu -100.00%
+iter 5: loss 3.3799, time 715.38ms, mfu 0.02%
+iter 6: loss 3.2186, time 705.85ms, mfu 0.02%
+iter 7: loss 3.2014, time 753.96ms, mfu 0.02%
+iter 8: loss 3.0791, time 719.37ms, mfu 0.02%
+iter 9: loss 2.9719, time 716.52ms, mfu 0.02%
+step 10: train loss 3.1521, val loss 3.1534
+saving checkpoint to experiments/member3/results/exp_030_bs128_nl4_nh8_ne256_bsz16_mi25_dr0.2
+iter 10: loss 3.1070, time 8126.85ms, mfu 0.02%
+iter 11: loss 2.9219, time 716.48ms, mfu 0.02%
+iter 12: loss 3.0269, time 739.73ms, mfu 0.02%
+iter 13: loss 2.8731, time 724.30ms, mfu 0.02%
+iter 14: loss 2.8156, time 711.69ms, mfu 0.02%
+iter 15: loss 2.8047, time 726.41ms, mfu 0.02%
+iter 16: loss 2.7857, time 731.10ms, mfu 0.02%
+iter 17: loss 2.7921, time 725.58ms, mfu 0.02%
+iter 18: loss 2.8057, time 737.63ms, mfu 0.02%
+iter 19: loss 2.7608, time 793.51ms, mfu 0.02%
+step 20: train loss 2.6929, val loss 2.7150
+saving checkpoint to experiments/member3/results/exp_030_bs128_nl4_nh8_ne256_bsz16_mi25_dr0.2
+iter 20: loss 2.6886, time 8124.91ms, mfu 0.02%
+iter 21: loss 2.7053, time 702.86ms, mfu 0.02%
+iter 22: loss 2.7730, time 847.31ms, mfu 0.02%
+iter 23: loss 2.6856, time 726.71ms, mfu 0.02%
+iter 24: loss 2.6159, time 728.28ms, mfu 0.02%
+iter 25: loss 2.7281, time 741.36ms, mfu 0.02%
+
+============================================================
+Completed: Tue Oct 28 18:50:52 2025
+Duration: 44.68 seconds

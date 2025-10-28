@@ -1,0 +1,1040 @@
+
+############################################################
+# nanoGPT Experiments - Group Assignment
+# Total experiments: 128
+# Experiments per member: 32
+############################################################
+
+
+Progress: 1/128
+
+============================================================
+Running: member1 - exp_001_bs64_nl4_nh4_ne128_bsz8_mi25_dr0.1
+============================================================
+✓ Completed in 7.58 seconds
+  Log saved to: experiments/member1/logs/exp_001_bs64_nl4_nh4_ne128_bsz8_mi25_dr0.1.log
+
+Progress: 2/128
+
+============================================================
+Running: member1 - exp_002_bs64_nl4_nh4_ne128_bsz8_mi25_dr0.2
+============================================================
+✓ Completed in 7.95 seconds
+  Log saved to: experiments/member1/logs/exp_002_bs64_nl4_nh4_ne128_bsz8_mi25_dr0.2.log
+
+Progress: 3/128
+
+============================================================
+Running: member1 - exp_003_bs64_nl4_nh4_ne128_bsz8_mi50_dr0.1
+============================================================
+✓ Completed in 11.81 seconds
+  Log saved to: experiments/member1/logs/exp_003_bs64_nl4_nh4_ne128_bsz8_mi50_dr0.1.log
+
+Progress: 4/128
+
+============================================================
+Running: member1 - exp_004_bs64_nl4_nh4_ne128_bsz8_mi50_dr0.2
+============================================================
+✓ Completed in 11.83 seconds
+  Log saved to: experiments/member1/logs/exp_004_bs64_nl4_nh4_ne128_bsz8_mi50_dr0.2.log
+
+Progress: 5/128
+
+============================================================
+Running: member1 - exp_005_bs64_nl4_nh4_ne128_bsz16_mi25_dr0.1
+============================================================
+✓ Completed in 11.81 seconds
+  Log saved to: experiments/member1/logs/exp_005_bs64_nl4_nh4_ne128_bsz16_mi25_dr0.1.log
+
+Progress: 6/128
+
+============================================================
+Running: member1 - exp_006_bs64_nl4_nh4_ne128_bsz16_mi25_dr0.2
+============================================================
+✓ Completed in 12.32 seconds
+  Log saved to: experiments/member1/logs/exp_006_bs64_nl4_nh4_ne128_bsz16_mi25_dr0.2.log
+
+Progress: 7/128
+
+============================================================
+Running: member1 - exp_007_bs64_nl4_nh4_ne128_bsz16_mi50_dr0.1
+============================================================
+✓ Completed in 16.81 seconds
+  Log saved to: experiments/member1/logs/exp_007_bs64_nl4_nh4_ne128_bsz16_mi50_dr0.1.log
+
+Progress: 8/128
+
+============================================================
+Running: member1 - exp_008_bs64_nl4_nh4_ne128_bsz16_mi50_dr0.2
+============================================================
+✓ Completed in 15.96 seconds
+  Log saved to: experiments/member1/logs/exp_008_bs64_nl4_nh4_ne128_bsz16_mi50_dr0.2.log
+
+Progress: 9/128
+
+============================================================
+Running: member1 - exp_009_bs64_nl4_nh4_ne256_bsz8_mi25_dr0.1
+============================================================
+✓ Completed in 15.65 seconds
+  Log saved to: experiments/member1/logs/exp_009_bs64_nl4_nh4_ne256_bsz8_mi25_dr0.1.log
+
+Progress: 10/128
+
+============================================================
+Running: member1 - exp_010_bs64_nl4_nh4_ne256_bsz8_mi25_dr0.2
+============================================================
+✓ Completed in 15.39 seconds
+  Log saved to: experiments/member1/logs/exp_010_bs64_nl4_nh4_ne256_bsz8_mi25_dr0.2.log
+
+Progress: 11/128
+
+============================================================
+Running: member1 - exp_011_bs64_nl4_nh4_ne256_bsz8_mi50_dr0.1
+============================================================
+✓ Completed in 28.57 seconds
+  Log saved to: experiments/member1/logs/exp_011_bs64_nl4_nh4_ne256_bsz8_mi50_dr0.1.log
+
+Progress: 12/128
+
+============================================================
+Running: member1 - exp_012_bs64_nl4_nh4_ne256_bsz8_mi50_dr0.2
+============================================================
+✓ Completed in 27.85 seconds
+  Log saved to: experiments/member1/logs/exp_012_bs64_nl4_nh4_ne256_bsz8_mi50_dr0.2.log
+
+Progress: 13/128
+
+============================================================
+Running: member1 - exp_013_bs64_nl4_nh4_ne256_bsz16_mi25_dr0.1
+============================================================
+✓ Completed in 25.64 seconds
+  Log saved to: experiments/member1/logs/exp_013_bs64_nl4_nh4_ne256_bsz16_mi25_dr0.1.log
+
+Progress: 14/128
+
+============================================================
+Running: member1 - exp_014_bs64_nl4_nh4_ne256_bsz16_mi25_dr0.2
+============================================================
+✓ Completed in 28.94 seconds
+  Log saved to: experiments/member1/logs/exp_014_bs64_nl4_nh4_ne256_bsz16_mi25_dr0.2.log
+
+Progress: 15/128
+
+============================================================
+Running: member1 - exp_015_bs64_nl4_nh4_ne256_bsz16_mi50_dr0.1
+============================================================
+✓ Completed in 48.35 seconds
+  Log saved to: experiments/member1/logs/exp_015_bs64_nl4_nh4_ne256_bsz16_mi50_dr0.1.log
+
+Progress: 16/128
+
+============================================================
+Running: member1 - exp_016_bs64_nl4_nh4_ne256_bsz16_mi50_dr0.2
+============================================================
+✓ Completed in 46.81 seconds
+  Log saved to: experiments/member1/logs/exp_016_bs64_nl4_nh4_ne256_bsz16_mi50_dr0.2.log
+
+Progress: 17/128
+
+============================================================
+Running: member1 - exp_017_bs64_nl4_nh8_ne128_bsz8_mi25_dr0.1
+============================================================
+✓ Completed in 7.56 seconds
+  Log saved to: experiments/member1/logs/exp_017_bs64_nl4_nh8_ne128_bsz8_mi25_dr0.1.log
+
+Progress: 18/128
+
+============================================================
+Running: member1 - exp_018_bs64_nl4_nh8_ne128_bsz8_mi25_dr0.2
+============================================================
+✓ Completed in 7.75 seconds
+  Log saved to: experiments/member1/logs/exp_018_bs64_nl4_nh8_ne128_bsz8_mi25_dr0.2.log
+
+Progress: 19/128
+
+============================================================
+Running: member1 - exp_019_bs64_nl4_nh8_ne128_bsz8_mi50_dr0.1
+============================================================
+✓ Completed in 12.50 seconds
+  Log saved to: experiments/member1/logs/exp_019_bs64_nl4_nh8_ne128_bsz8_mi50_dr0.1.log
+
+Progress: 20/128
+
+============================================================
+Running: member1 - exp_020_bs64_nl4_nh8_ne128_bsz8_mi50_dr0.2
+============================================================
+✓ Completed in 12.02 seconds
+  Log saved to: experiments/member1/logs/exp_020_bs64_nl4_nh8_ne128_bsz8_mi50_dr0.2.log
+
+Progress: 21/128
+
+============================================================
+Running: member1 - exp_021_bs64_nl4_nh8_ne128_bsz16_mi25_dr0.1
+============================================================
+✓ Completed in 11.11 seconds
+  Log saved to: experiments/member1/logs/exp_021_bs64_nl4_nh8_ne128_bsz16_mi25_dr0.1.log
+
+Progress: 22/128
+
+============================================================
+Running: member1 - exp_022_bs64_nl4_nh8_ne128_bsz16_mi25_dr0.2
+============================================================
+✓ Completed in 10.36 seconds
+  Log saved to: experiments/member1/logs/exp_022_bs64_nl4_nh8_ne128_bsz16_mi25_dr0.2.log
+
+Progress: 23/128
+
+============================================================
+Running: member1 - exp_023_bs64_nl4_nh8_ne128_bsz16_mi50_dr0.1
+============================================================
+✓ Completed in 16.82 seconds
+  Log saved to: experiments/member1/logs/exp_023_bs64_nl4_nh8_ne128_bsz16_mi50_dr0.1.log
+
+Progress: 24/128
+
+============================================================
+Running: member1 - exp_024_bs64_nl4_nh8_ne128_bsz16_mi50_dr0.2
+============================================================
+✓ Completed in 17.40 seconds
+  Log saved to: experiments/member1/logs/exp_024_bs64_nl4_nh8_ne128_bsz16_mi50_dr0.2.log
+
+Progress: 25/128
+
+============================================================
+Running: member1 - exp_025_bs64_nl4_nh8_ne256_bsz8_mi25_dr0.1
+============================================================
+✓ Completed in 13.22 seconds
+  Log saved to: experiments/member1/logs/exp_025_bs64_nl4_nh8_ne256_bsz8_mi25_dr0.1.log
+
+Progress: 26/128
+
+============================================================
+Running: member1 - exp_026_bs64_nl4_nh8_ne256_bsz8_mi25_dr0.2
+============================================================
+✓ Completed in 13.64 seconds
+  Log saved to: experiments/member1/logs/exp_026_bs64_nl4_nh8_ne256_bsz8_mi25_dr0.2.log
+
+Progress: 27/128
+
+============================================================
+Running: member1 - exp_027_bs64_nl4_nh8_ne256_bsz8_mi50_dr0.1
+============================================================
+✓ Completed in 23.48 seconds
+  Log saved to: experiments/member1/logs/exp_027_bs64_nl4_nh8_ne256_bsz8_mi50_dr0.1.log
+
+Progress: 28/128
+
+============================================================
+Running: member1 - exp_028_bs64_nl4_nh8_ne256_bsz8_mi50_dr0.2
+============================================================
+✓ Completed in 23.85 seconds
+  Log saved to: experiments/member1/logs/exp_028_bs64_nl4_nh8_ne256_bsz8_mi50_dr0.2.log
+
+Progress: 29/128
+
+============================================================
+Running: member1 - exp_029_bs64_nl4_nh8_ne256_bsz16_mi25_dr0.1
+============================================================
+✓ Completed in 22.51 seconds
+  Log saved to: experiments/member1/logs/exp_029_bs64_nl4_nh8_ne256_bsz16_mi25_dr0.1.log
+
+Progress: 30/128
+
+============================================================
+Running: member1 - exp_030_bs64_nl4_nh8_ne256_bsz16_mi25_dr0.2
+============================================================
+✓ Completed in 22.73 seconds
+  Log saved to: experiments/member1/logs/exp_030_bs64_nl4_nh8_ne256_bsz16_mi25_dr0.2.log
+
+Progress: 31/128
+
+============================================================
+Running: member1 - exp_031_bs64_nl4_nh8_ne256_bsz16_mi50_dr0.1
+============================================================
+✓ Completed in 41.57 seconds
+  Log saved to: experiments/member1/logs/exp_031_bs64_nl4_nh8_ne256_bsz16_mi50_dr0.1.log
+
+Progress: 32/128
+
+============================================================
+Running: member1 - exp_032_bs64_nl4_nh8_ne256_bsz16_mi50_dr0.2
+============================================================
+✓ Completed in 42.29 seconds
+  Log saved to: experiments/member1/logs/exp_032_bs64_nl4_nh8_ne256_bsz16_mi50_dr0.2.log
+
+Progress: 33/128
+
+============================================================
+Running: member2 - exp_001_bs64_nl6_nh4_ne128_bsz8_mi25_dr0.1
+============================================================
+✓ Completed in 8.05 seconds
+  Log saved to: experiments/member2/logs/exp_001_bs64_nl6_nh4_ne128_bsz8_mi25_dr0.1.log
+
+Progress: 34/128
+
+============================================================
+Running: member2 - exp_002_bs64_nl6_nh4_ne128_bsz8_mi25_dr0.2
+============================================================
+✓ Completed in 8.09 seconds
+  Log saved to: experiments/member2/logs/exp_002_bs64_nl6_nh4_ne128_bsz8_mi25_dr0.2.log
+
+Progress: 35/128
+
+============================================================
+Running: member2 - exp_003_bs64_nl6_nh4_ne128_bsz8_mi50_dr0.1
+============================================================
+✓ Completed in 12.87 seconds
+  Log saved to: experiments/member2/logs/exp_003_bs64_nl6_nh4_ne128_bsz8_mi50_dr0.1.log
+
+Progress: 36/128
+
+============================================================
+Running: member2 - exp_004_bs64_nl6_nh4_ne128_bsz8_mi50_dr0.2
+============================================================
+✓ Completed in 13.22 seconds
+  Log saved to: experiments/member2/logs/exp_004_bs64_nl6_nh4_ne128_bsz8_mi50_dr0.2.log
+
+Progress: 37/128
+
+============================================================
+Running: member2 - exp_005_bs64_nl6_nh4_ne128_bsz16_mi25_dr0.1
+============================================================
+✓ Completed in 12.44 seconds
+  Log saved to: experiments/member2/logs/exp_005_bs64_nl6_nh4_ne128_bsz16_mi25_dr0.1.log
+
+Progress: 38/128
+
+============================================================
+Running: member2 - exp_006_bs64_nl6_nh4_ne128_bsz16_mi25_dr0.2
+============================================================
+✓ Completed in 12.83 seconds
+  Log saved to: experiments/member2/logs/exp_006_bs64_nl6_nh4_ne128_bsz16_mi25_dr0.2.log
+
+Progress: 39/128
+
+============================================================
+Running: member2 - exp_007_bs64_nl6_nh4_ne128_bsz16_mi50_dr0.1
+============================================================
+✓ Completed in 21.73 seconds
+  Log saved to: experiments/member2/logs/exp_007_bs64_nl6_nh4_ne128_bsz16_mi50_dr0.1.log
+
+Progress: 40/128
+
+============================================================
+Running: member2 - exp_008_bs64_nl6_nh4_ne128_bsz16_mi50_dr0.2
+============================================================
+✓ Completed in 22.03 seconds
+  Log saved to: experiments/member2/logs/exp_008_bs64_nl6_nh4_ne128_bsz16_mi50_dr0.2.log
+
+Progress: 41/128
+
+============================================================
+Running: member2 - exp_009_bs64_nl6_nh4_ne256_bsz8_mi25_dr0.1
+============================================================
+✓ Completed in 18.00 seconds
+  Log saved to: experiments/member2/logs/exp_009_bs64_nl6_nh4_ne256_bsz8_mi25_dr0.1.log
+
+Progress: 42/128
+
+============================================================
+Running: member2 - exp_010_bs64_nl6_nh4_ne256_bsz8_mi25_dr0.2
+============================================================
+✓ Completed in 17.75 seconds
+  Log saved to: experiments/member2/logs/exp_010_bs64_nl6_nh4_ne256_bsz8_mi25_dr0.2.log
+
+Progress: 43/128
+
+============================================================
+Running: member2 - exp_011_bs64_nl6_nh4_ne256_bsz8_mi50_dr0.1
+============================================================
+✓ Completed in 32.85 seconds
+  Log saved to: experiments/member2/logs/exp_011_bs64_nl6_nh4_ne256_bsz8_mi50_dr0.1.log
+
+Progress: 44/128
+
+============================================================
+Running: member2 - exp_012_bs64_nl6_nh4_ne256_bsz8_mi50_dr0.2
+============================================================
+✓ Completed in 33.27 seconds
+  Log saved to: experiments/member2/logs/exp_012_bs64_nl6_nh4_ne256_bsz8_mi50_dr0.2.log
+
+Progress: 45/128
+
+============================================================
+Running: member2 - exp_013_bs64_nl6_nh4_ne256_bsz16_mi25_dr0.1
+============================================================
+✓ Completed in 31.42 seconds
+  Log saved to: experiments/member2/logs/exp_013_bs64_nl6_nh4_ne256_bsz16_mi25_dr0.1.log
+
+Progress: 46/128
+
+============================================================
+Running: member2 - exp_014_bs64_nl6_nh4_ne256_bsz16_mi25_dr0.2
+============================================================
+✓ Completed in 31.65 seconds
+  Log saved to: experiments/member2/logs/exp_014_bs64_nl6_nh4_ne256_bsz16_mi25_dr0.2.log
+
+Progress: 47/128
+
+============================================================
+Running: member2 - exp_015_bs64_nl6_nh4_ne256_bsz16_mi50_dr0.1
+============================================================
+✓ Completed in 58.72 seconds
+  Log saved to: experiments/member2/logs/exp_015_bs64_nl6_nh4_ne256_bsz16_mi50_dr0.1.log
+
+Progress: 48/128
+
+============================================================
+Running: member2 - exp_016_bs64_nl6_nh4_ne256_bsz16_mi50_dr0.2
+============================================================
+✓ Completed in 58.81 seconds
+  Log saved to: experiments/member2/logs/exp_016_bs64_nl6_nh4_ne256_bsz16_mi50_dr0.2.log
+
+Progress: 49/128
+
+============================================================
+Running: member2 - exp_017_bs64_nl6_nh8_ne128_bsz8_mi25_dr0.1
+============================================================
+✓ Completed in 8.73 seconds
+  Log saved to: experiments/member2/logs/exp_017_bs64_nl6_nh8_ne128_bsz8_mi25_dr0.1.log
+
+Progress: 50/128
+
+============================================================
+Running: member2 - exp_018_bs64_nl6_nh8_ne128_bsz8_mi25_dr0.2
+============================================================
+✓ Completed in 8.65 seconds
+  Log saved to: experiments/member2/logs/exp_018_bs64_nl6_nh8_ne128_bsz8_mi25_dr0.2.log
+
+Progress: 51/128
+
+============================================================
+Running: member2 - exp_019_bs64_nl6_nh8_ne128_bsz8_mi50_dr0.1
+============================================================
+✓ Completed in 13.90 seconds
+  Log saved to: experiments/member2/logs/exp_019_bs64_nl6_nh8_ne128_bsz8_mi50_dr0.1.log
+
+Progress: 52/128
+
+============================================================
+Running: member2 - exp_020_bs64_nl6_nh8_ne128_bsz8_mi50_dr0.2
+============================================================
+✓ Completed in 14.43 seconds
+  Log saved to: experiments/member2/logs/exp_020_bs64_nl6_nh8_ne128_bsz8_mi50_dr0.2.log
+
+Progress: 53/128
+
+============================================================
+Running: member2 - exp_021_bs64_nl6_nh8_ne128_bsz16_mi25_dr0.1
+============================================================
+✓ Completed in 14.12 seconds
+  Log saved to: experiments/member2/logs/exp_021_bs64_nl6_nh8_ne128_bsz16_mi25_dr0.1.log
+
+Progress: 54/128
+
+============================================================
+Running: member2 - exp_022_bs64_nl6_nh8_ne128_bsz16_mi25_dr0.2
+============================================================
+✓ Completed in 14.05 seconds
+  Log saved to: experiments/member2/logs/exp_022_bs64_nl6_nh8_ne128_bsz16_mi25_dr0.2.log
+
+Progress: 55/128
+
+============================================================
+Running: member2 - exp_023_bs64_nl6_nh8_ne128_bsz16_mi50_dr0.1
+============================================================
+✓ Completed in 23.91 seconds
+  Log saved to: experiments/member2/logs/exp_023_bs64_nl6_nh8_ne128_bsz16_mi50_dr0.1.log
+
+Progress: 56/128
+
+============================================================
+Running: member2 - exp_024_bs64_nl6_nh8_ne128_bsz16_mi50_dr0.2
+============================================================
+✓ Completed in 24.48 seconds
+  Log saved to: experiments/member2/logs/exp_024_bs64_nl6_nh8_ne128_bsz16_mi50_dr0.2.log
+
+Progress: 57/128
+
+============================================================
+Running: member2 - exp_025_bs64_nl6_nh8_ne256_bsz8_mi25_dr0.1
+============================================================
+✓ Completed in 18.54 seconds
+  Log saved to: experiments/member2/logs/exp_025_bs64_nl6_nh8_ne256_bsz8_mi25_dr0.1.log
+
+Progress: 58/128
+
+============================================================
+Running: member2 - exp_026_bs64_nl6_nh8_ne256_bsz8_mi25_dr0.2
+============================================================
+✓ Completed in 18.40 seconds
+  Log saved to: experiments/member2/logs/exp_026_bs64_nl6_nh8_ne256_bsz8_mi25_dr0.2.log
+
+Progress: 59/128
+
+============================================================
+Running: member2 - exp_027_bs64_nl6_nh8_ne256_bsz8_mi50_dr0.1
+============================================================
+✓ Completed in 33.56 seconds
+  Log saved to: experiments/member2/logs/exp_027_bs64_nl6_nh8_ne256_bsz8_mi50_dr0.1.log
+
+Progress: 60/128
+
+============================================================
+Running: member2 - exp_028_bs64_nl6_nh8_ne256_bsz8_mi50_dr0.2
+============================================================
+✓ Completed in 34.06 seconds
+  Log saved to: experiments/member2/logs/exp_028_bs64_nl6_nh8_ne256_bsz8_mi50_dr0.2.log
+
+Progress: 61/128
+
+============================================================
+Running: member2 - exp_029_bs64_nl6_nh8_ne256_bsz16_mi25_dr0.1
+============================================================
+✓ Completed in 32.31 seconds
+  Log saved to: experiments/member2/logs/exp_029_bs64_nl6_nh8_ne256_bsz16_mi25_dr0.1.log
+
+Progress: 62/128
+
+============================================================
+Running: member2 - exp_030_bs64_nl6_nh8_ne256_bsz16_mi25_dr0.2
+============================================================
+✓ Completed in 32.24 seconds
+  Log saved to: experiments/member2/logs/exp_030_bs64_nl6_nh8_ne256_bsz16_mi25_dr0.2.log
+
+Progress: 63/128
+
+============================================================
+Running: member2 - exp_031_bs64_nl6_nh8_ne256_bsz16_mi50_dr0.1
+============================================================
+✓ Completed in 60.64 seconds
+  Log saved to: experiments/member2/logs/exp_031_bs64_nl6_nh8_ne256_bsz16_mi50_dr0.1.log
+
+Progress: 64/128
+
+============================================================
+Running: member2 - exp_032_bs64_nl6_nh8_ne256_bsz16_mi50_dr0.2
+============================================================
+✓ Completed in 61.11 seconds
+  Log saved to: experiments/member2/logs/exp_032_bs64_nl6_nh8_ne256_bsz16_mi50_dr0.2.log
+
+Progress: 65/128
+
+============================================================
+Running: member3 - exp_001_bs128_nl4_nh4_ne128_bsz8_mi25_dr0.1
+============================================================
+✓ Completed in 10.33 seconds
+  Log saved to: experiments/member3/logs/exp_001_bs128_nl4_nh4_ne128_bsz8_mi25_dr0.1.log
+
+Progress: 66/128
+
+============================================================
+Running: member3 - exp_002_bs128_nl4_nh4_ne128_bsz8_mi25_dr0.2
+============================================================
+✓ Completed in 10.24 seconds
+  Log saved to: experiments/member3/logs/exp_002_bs128_nl4_nh4_ne128_bsz8_mi25_dr0.2.log
+
+Progress: 67/128
+
+============================================================
+Running: member3 - exp_003_bs128_nl4_nh4_ne128_bsz8_mi50_dr0.1
+============================================================
+✓ Completed in 17.06 seconds
+  Log saved to: experiments/member3/logs/exp_003_bs128_nl4_nh4_ne128_bsz8_mi50_dr0.1.log
+
+Progress: 68/128
+
+============================================================
+Running: member3 - exp_004_bs128_nl4_nh4_ne128_bsz8_mi50_dr0.2
+============================================================
+✓ Completed in 17.33 seconds
+  Log saved to: experiments/member3/logs/exp_004_bs128_nl4_nh4_ne128_bsz8_mi50_dr0.2.log
+
+Progress: 69/128
+
+============================================================
+Running: member3 - exp_005_bs128_nl4_nh4_ne128_bsz16_mi25_dr0.1
+============================================================
+✓ Completed in 17.07 seconds
+  Log saved to: experiments/member3/logs/exp_005_bs128_nl4_nh4_ne128_bsz16_mi25_dr0.1.log
+
+Progress: 70/128
+
+============================================================
+Running: member3 - exp_006_bs128_nl4_nh4_ne128_bsz16_mi25_dr0.2
+============================================================
+✓ Completed in 17.06 seconds
+  Log saved to: experiments/member3/logs/exp_006_bs128_nl4_nh4_ne128_bsz16_mi25_dr0.2.log
+
+Progress: 71/128
+
+============================================================
+Running: member3 - exp_007_bs128_nl4_nh4_ne128_bsz16_mi50_dr0.1
+============================================================
+✓ Completed in 30.08 seconds
+  Log saved to: experiments/member3/logs/exp_007_bs128_nl4_nh4_ne128_bsz16_mi50_dr0.1.log
+
+Progress: 72/128
+
+============================================================
+Running: member3 - exp_008_bs128_nl4_nh4_ne128_bsz16_mi50_dr0.2
+============================================================
+✓ Completed in 30.62 seconds
+  Log saved to: experiments/member3/logs/exp_008_bs128_nl4_nh4_ne128_bsz16_mi50_dr0.2.log
+
+Progress: 73/128
+
+============================================================
+Running: member3 - exp_009_bs128_nl4_nh4_ne256_bsz8_mi25_dr0.1
+============================================================
+✓ Completed in 22.73 seconds
+  Log saved to: experiments/member3/logs/exp_009_bs128_nl4_nh4_ne256_bsz8_mi25_dr0.1.log
+
+Progress: 74/128
+
+============================================================
+Running: member3 - exp_010_bs128_nl4_nh4_ne256_bsz8_mi25_dr0.2
+============================================================
+✓ Completed in 23.15 seconds
+  Log saved to: experiments/member3/logs/exp_010_bs128_nl4_nh4_ne256_bsz8_mi25_dr0.2.log
+
+Progress: 75/128
+
+============================================================
+Running: member3 - exp_011_bs128_nl4_nh4_ne256_bsz8_mi50_dr0.1
+============================================================
+✓ Completed in 42.30 seconds
+  Log saved to: experiments/member3/logs/exp_011_bs128_nl4_nh4_ne256_bsz8_mi50_dr0.1.log
+
+Progress: 76/128
+
+============================================================
+Running: member3 - exp_012_bs128_nl4_nh4_ne256_bsz8_mi50_dr0.2
+============================================================
+✓ Completed in 42.85 seconds
+  Log saved to: experiments/member3/logs/exp_012_bs128_nl4_nh4_ne256_bsz8_mi50_dr0.2.log
+
+Progress: 77/128
+
+============================================================
+Running: member3 - exp_013_bs128_nl4_nh4_ne256_bsz16_mi25_dr0.1
+============================================================
+✓ Completed in 41.82 seconds
+  Log saved to: experiments/member3/logs/exp_013_bs128_nl4_nh4_ne256_bsz16_mi25_dr0.1.log
+
+Progress: 78/128
+
+============================================================
+Running: member3 - exp_014_bs128_nl4_nh4_ne256_bsz16_mi25_dr0.2
+============================================================
+✓ Completed in 42.26 seconds
+  Log saved to: experiments/member3/logs/exp_014_bs128_nl4_nh4_ne256_bsz16_mi25_dr0.2.log
+
+Progress: 79/128
+
+============================================================
+Running: member3 - exp_015_bs128_nl4_nh4_ne256_bsz16_mi50_dr0.1
+============================================================
+✓ Completed in 80.13 seconds
+  Log saved to: experiments/member3/logs/exp_015_bs128_nl4_nh4_ne256_bsz16_mi50_dr0.1.log
+
+Progress: 80/128
+
+============================================================
+Running: member3 - exp_016_bs128_nl4_nh4_ne256_bsz16_mi50_dr0.2
+============================================================
+✓ Completed in 80.50 seconds
+  Log saved to: experiments/member3/logs/exp_016_bs128_nl4_nh4_ne256_bsz16_mi50_dr0.2.log
+
+Progress: 81/128
+
+============================================================
+Running: member3 - exp_017_bs128_nl4_nh8_ne128_bsz8_mi25_dr0.1
+============================================================
+✓ Completed in 11.31 seconds
+  Log saved to: experiments/member3/logs/exp_017_bs128_nl4_nh8_ne128_bsz8_mi25_dr0.1.log
+
+Progress: 82/128
+
+============================================================
+Running: member3 - exp_018_bs128_nl4_nh8_ne128_bsz8_mi25_dr0.2
+============================================================
+✓ Completed in 11.30 seconds
+  Log saved to: experiments/member3/logs/exp_018_bs128_nl4_nh8_ne128_bsz8_mi25_dr0.2.log
+
+Progress: 83/128
+
+============================================================
+Running: member3 - exp_019_bs128_nl4_nh8_ne128_bsz8_mi50_dr0.1
+============================================================
+✓ Completed in 18.99 seconds
+  Log saved to: experiments/member3/logs/exp_019_bs128_nl4_nh8_ne128_bsz8_mi50_dr0.1.log
+
+Progress: 84/128
+
+============================================================
+Running: member3 - exp_020_bs128_nl4_nh8_ne128_bsz8_mi50_dr0.2
+============================================================
+✓ Completed in 19.83 seconds
+  Log saved to: experiments/member3/logs/exp_020_bs128_nl4_nh8_ne128_bsz8_mi50_dr0.2.log
+
+Progress: 85/128
+
+============================================================
+Running: member3 - exp_021_bs128_nl4_nh8_ne128_bsz16_mi25_dr0.1
+============================================================
+✓ Completed in 18.97 seconds
+  Log saved to: experiments/member3/logs/exp_021_bs128_nl4_nh8_ne128_bsz16_mi25_dr0.1.log
+
+Progress: 86/128
+
+============================================================
+Running: member3 - exp_022_bs128_nl4_nh8_ne128_bsz16_mi25_dr0.2
+============================================================
+✓ Completed in 19.38 seconds
+  Log saved to: experiments/member3/logs/exp_022_bs128_nl4_nh8_ne128_bsz16_mi25_dr0.2.log
+
+Progress: 87/128
+
+============================================================
+Running: member3 - exp_023_bs128_nl4_nh8_ne128_bsz16_mi50_dr0.1
+============================================================
+✓ Completed in 34.47 seconds
+  Log saved to: experiments/member3/logs/exp_023_bs128_nl4_nh8_ne128_bsz16_mi50_dr0.1.log
+
+Progress: 88/128
+
+============================================================
+Running: member3 - exp_024_bs128_nl4_nh8_ne128_bsz16_mi50_dr0.2
+============================================================
+✓ Completed in 35.34 seconds
+  Log saved to: experiments/member3/logs/exp_024_bs128_nl4_nh8_ne128_bsz16_mi50_dr0.2.log
+
+Progress: 89/128
+
+============================================================
+Running: member3 - exp_025_bs128_nl4_nh8_ne256_bsz8_mi25_dr0.1
+============================================================
+✓ Completed in 23.63 seconds
+  Log saved to: experiments/member3/logs/exp_025_bs128_nl4_nh8_ne256_bsz8_mi25_dr0.1.log
+
+Progress: 90/128
+
+============================================================
+Running: member3 - exp_026_bs128_nl4_nh8_ne256_bsz8_mi25_dr0.2
+============================================================
+✓ Completed in 24.05 seconds
+  Log saved to: experiments/member3/logs/exp_026_bs128_nl4_nh8_ne256_bsz8_mi25_dr0.2.log
+
+Progress: 91/128
+
+============================================================
+Running: member3 - exp_027_bs128_nl4_nh8_ne256_bsz8_mi50_dr0.1
+============================================================
+✓ Completed in 44.32 seconds
+  Log saved to: experiments/member3/logs/exp_027_bs128_nl4_nh8_ne256_bsz8_mi50_dr0.1.log
+
+Progress: 92/128
+
+============================================================
+Running: member3 - exp_028_bs128_nl4_nh8_ne256_bsz8_mi50_dr0.2
+============================================================
+✓ Completed in 45.21 seconds
+  Log saved to: experiments/member3/logs/exp_028_bs128_nl4_nh8_ne256_bsz8_mi50_dr0.2.log
+
+Progress: 93/128
+
+============================================================
+Running: member3 - exp_029_bs128_nl4_nh8_ne256_bsz16_mi25_dr0.1
+============================================================
+✓ Completed in 44.41 seconds
+  Log saved to: experiments/member3/logs/exp_029_bs128_nl4_nh8_ne256_bsz16_mi25_dr0.1.log
+
+Progress: 94/128
+
+============================================================
+Running: member3 - exp_030_bs128_nl4_nh8_ne256_bsz16_mi25_dr0.2
+============================================================
+✓ Completed in 44.68 seconds
+  Log saved to: experiments/member3/logs/exp_030_bs128_nl4_nh8_ne256_bsz16_mi25_dr0.2.log
+
+Progress: 95/128
+
+============================================================
+Running: member3 - exp_031_bs128_nl4_nh8_ne256_bsz16_mi50_dr0.1
+============================================================
+✓ Completed in 83.90 seconds
+  Log saved to: experiments/member3/logs/exp_031_bs128_nl4_nh8_ne256_bsz16_mi50_dr0.1.log
+
+Progress: 96/128
+
+============================================================
+Running: member3 - exp_032_bs128_nl4_nh8_ne256_bsz16_mi50_dr0.2
+============================================================
+✓ Completed in 85.20 seconds
+  Log saved to: experiments/member3/logs/exp_032_bs128_nl4_nh8_ne256_bsz16_mi50_dr0.2.log
+
+Progress: 97/128
+
+============================================================
+Running: member4 - exp_001_bs128_nl6_nh4_ne128_bsz8_mi25_dr0.1
+============================================================
+✓ Completed in 13.96 seconds
+  Log saved to: experiments/member4/logs/exp_001_bs128_nl6_nh4_ne128_bsz8_mi25_dr0.1.log
+
+Progress: 98/128
+
+============================================================
+Running: member4 - exp_002_bs128_nl6_nh4_ne128_bsz8_mi25_dr0.2
+============================================================
+✓ Completed in 13.71 seconds
+  Log saved to: experiments/member4/logs/exp_002_bs128_nl6_nh4_ne128_bsz8_mi25_dr0.2.log
+
+Progress: 99/128
+
+============================================================
+Running: member4 - exp_003_bs128_nl6_nh4_ne128_bsz8_mi50_dr0.1
+============================================================
+✓ Completed in 23.98 seconds
+  Log saved to: experiments/member4/logs/exp_003_bs128_nl6_nh4_ne128_bsz8_mi50_dr0.1.log
+
+Progress: 100/128
+
+============================================================
+Running: member4 - exp_004_bs128_nl6_nh4_ne128_bsz8_mi50_dr0.2
+============================================================
+✓ Completed in 24.30 seconds
+  Log saved to: experiments/member4/logs/exp_004_bs128_nl6_nh4_ne128_bsz8_mi50_dr0.2.log
+
+Progress: 101/128
+
+============================================================
+Running: member4 - exp_005_bs128_nl6_nh4_ne128_bsz16_mi25_dr0.1
+============================================================
+✓ Completed in 23.42 seconds
+  Log saved to: experiments/member4/logs/exp_005_bs128_nl6_nh4_ne128_bsz16_mi25_dr0.1.log
+
+Progress: 102/128
+
+============================================================
+Running: member4 - exp_006_bs128_nl6_nh4_ne128_bsz16_mi25_dr0.2
+============================================================
+✓ Completed in 23.93 seconds
+  Log saved to: experiments/member4/logs/exp_006_bs128_nl6_nh4_ne128_bsz16_mi25_dr0.2.log
+
+Progress: 103/128
+
+============================================================
+Running: member4 - exp_007_bs128_nl6_nh4_ne128_bsz16_mi50_dr0.1
+============================================================
+✓ Completed in 43.23 seconds
+  Log saved to: experiments/member4/logs/exp_007_bs128_nl6_nh4_ne128_bsz16_mi50_dr0.1.log
+
+Progress: 104/128
+
+============================================================
+Running: member4 - exp_008_bs128_nl6_nh4_ne128_bsz16_mi50_dr0.2
+============================================================
+✓ Completed in 44.11 seconds
+  Log saved to: experiments/member4/logs/exp_008_bs128_nl6_nh4_ne128_bsz16_mi50_dr0.2.log
+
+Progress: 105/128
+
+============================================================
+Running: member4 - exp_009_bs128_nl6_nh4_ne256_bsz8_mi25_dr0.1
+============================================================
+✓ Completed in 32.67 seconds
+  Log saved to: experiments/member4/logs/exp_009_bs128_nl6_nh4_ne256_bsz8_mi25_dr0.1.log
+
+Progress: 106/128
+
+============================================================
+Running: member4 - exp_010_bs128_nl6_nh4_ne256_bsz8_mi25_dr0.2
+============================================================
+✓ Completed in 32.38 seconds
+  Log saved to: experiments/member4/logs/exp_010_bs128_nl6_nh4_ne256_bsz8_mi25_dr0.2.log
+
+Progress: 107/128
+
+============================================================
+Running: member4 - exp_011_bs128_nl6_nh4_ne256_bsz8_mi50_dr0.1
+============================================================
+✓ Completed in 61.95 seconds
+  Log saved to: experiments/member4/logs/exp_011_bs128_nl6_nh4_ne256_bsz8_mi50_dr0.1.log
+
+Progress: 108/128
+
+============================================================
+Running: member4 - exp_012_bs128_nl6_nh4_ne256_bsz8_mi50_dr0.2
+============================================================
+✓ Completed in 62.17 seconds
+  Log saved to: experiments/member4/logs/exp_012_bs128_nl6_nh4_ne256_bsz8_mi50_dr0.2.log
+
+Progress: 109/128
+
+============================================================
+Running: member4 - exp_013_bs128_nl6_nh4_ne256_bsz16_mi25_dr0.1
+============================================================
+✓ Completed in 61.33 seconds
+  Log saved to: experiments/member4/logs/exp_013_bs128_nl6_nh4_ne256_bsz16_mi25_dr0.1.log
+
+Progress: 110/128
+
+============================================================
+Running: member4 - exp_014_bs128_nl6_nh4_ne256_bsz16_mi25_dr0.2
+============================================================
+✓ Completed in 61.98 seconds
+  Log saved to: experiments/member4/logs/exp_014_bs128_nl6_nh4_ne256_bsz16_mi25_dr0.2.log
+
+Progress: 111/128
+
+============================================================
+Running: member4 - exp_015_bs128_nl6_nh4_ne256_bsz16_mi50_dr0.1
+============================================================
+✓ Completed in 117.60 seconds
+  Log saved to: experiments/member4/logs/exp_015_bs128_nl6_nh4_ne256_bsz16_mi50_dr0.1.log
+
+Progress: 112/128
+
+============================================================
+Running: member4 - exp_016_bs128_nl6_nh4_ne256_bsz16_mi50_dr0.2
+============================================================
+✓ Completed in 119.91 seconds
+  Log saved to: experiments/member4/logs/exp_016_bs128_nl6_nh4_ne256_bsz16_mi50_dr0.2.log
+
+Progress: 113/128
+
+============================================================
+Running: member4 - exp_017_bs128_nl6_nh8_ne128_bsz8_mi25_dr0.1
+============================================================
+✓ Completed in 15.31 seconds
+  Log saved to: experiments/member4/logs/exp_017_bs128_nl6_nh8_ne128_bsz8_mi25_dr0.1.log
+
+Progress: 114/128
+
+============================================================
+Running: member4 - exp_018_bs128_nl6_nh8_ne128_bsz8_mi25_dr0.2
+============================================================
+✓ Completed in 15.87 seconds
+  Log saved to: experiments/member4/logs/exp_018_bs128_nl6_nh8_ne128_bsz8_mi25_dr0.2.log
+
+Progress: 115/128
+
+============================================================
+Running: member4 - exp_019_bs128_nl6_nh8_ne128_bsz8_mi50_dr0.1
+============================================================
+✓ Completed in 27.17 seconds
+  Log saved to: experiments/member4/logs/exp_019_bs128_nl6_nh8_ne128_bsz8_mi50_dr0.1.log
+
+Progress: 116/128
+
+============================================================
+Running: member4 - exp_020_bs128_nl6_nh8_ne128_bsz8_mi50_dr0.2
+============================================================
+✓ Completed in 27.99 seconds
+  Log saved to: experiments/member4/logs/exp_020_bs128_nl6_nh8_ne128_bsz8_mi50_dr0.2.log
+
+Progress: 117/128
+
+============================================================
+Running: member4 - exp_021_bs128_nl6_nh8_ne128_bsz16_mi25_dr0.1
+============================================================
+✓ Completed in 26.78 seconds
+  Log saved to: experiments/member4/logs/exp_021_bs128_nl6_nh8_ne128_bsz16_mi25_dr0.1.log
+
+Progress: 118/128
+
+============================================================
+Running: member4 - exp_022_bs128_nl6_nh8_ne128_bsz16_mi25_dr0.2
+============================================================
+✓ Completed in 27.33 seconds
+  Log saved to: experiments/member4/logs/exp_022_bs128_nl6_nh8_ne128_bsz16_mi25_dr0.2.log
+
+Progress: 119/128
+
+============================================================
+Running: member4 - exp_023_bs128_nl6_nh8_ne128_bsz16_mi50_dr0.1
+============================================================
+✓ Completed in 50.15 seconds
+  Log saved to: experiments/member4/logs/exp_023_bs128_nl6_nh8_ne128_bsz16_mi50_dr0.1.log
+
+Progress: 120/128
+
+============================================================
+Running: member4 - exp_024_bs128_nl6_nh8_ne128_bsz16_mi50_dr0.2
+============================================================
+✓ Completed in 51.07 seconds
+  Log saved to: experiments/member4/logs/exp_024_bs128_nl6_nh8_ne128_bsz16_mi50_dr0.2.log
+
+Progress: 121/128
+
+============================================================
+Running: member4 - exp_025_bs128_nl6_nh8_ne256_bsz8_mi25_dr0.1
+============================================================
+✓ Completed in 34.23 seconds
+  Log saved to: experiments/member4/logs/exp_025_bs128_nl6_nh8_ne256_bsz8_mi25_dr0.1.log
+
+Progress: 122/128
+
+============================================================
+Running: member4 - exp_026_bs128_nl6_nh8_ne256_bsz8_mi25_dr0.2
+============================================================
+✓ Completed in 35.05 seconds
+  Log saved to: experiments/member4/logs/exp_026_bs128_nl6_nh8_ne256_bsz8_mi25_dr0.2.log
+
+Progress: 123/128
+
+============================================================
+Running: member4 - exp_027_bs128_nl6_nh8_ne256_bsz8_mi50_dr0.1
+============================================================
+✓ Completed in 64.64 seconds
+  Log saved to: experiments/member4/logs/exp_027_bs128_nl6_nh8_ne256_bsz8_mi50_dr0.1.log
+
+Progress: 124/128
+
+============================================================
+Running: member4 - exp_028_bs128_nl6_nh8_ne256_bsz8_mi50_dr0.2
+============================================================
+✓ Completed in 65.91 seconds
+  Log saved to: experiments/member4/logs/exp_028_bs128_nl6_nh8_ne256_bsz8_mi50_dr0.2.log
+
+Progress: 125/128
+
+============================================================
+Running: member4 - exp_029_bs128_nl6_nh8_ne256_bsz16_mi25_dr0.1
+============================================================
+✓ Completed in 65.61 seconds
+  Log saved to: experiments/member4/logs/exp_029_bs128_nl6_nh8_ne256_bsz16_mi25_dr0.1.log
+
+Progress: 126/128
+
+============================================================
+Running: member4 - exp_030_bs128_nl6_nh8_ne256_bsz16_mi25_dr0.2
+============================================================
+✓ Completed in 65.45 seconds
+  Log saved to: experiments/member4/logs/exp_030_bs128_nl6_nh8_ne256_bsz16_mi25_dr0.2.log
+
+Progress: 127/128
+
+============================================================
+Running: member4 - exp_031_bs128_nl6_nh8_ne256_bsz16_mi50_dr0.1
+============================================================
+✓ Completed in 125.06 seconds
+  Log saved to: experiments/member4/logs/exp_031_bs128_nl6_nh8_ne256_bsz16_mi50_dr0.1.log
+
+Progress: 128/128
+
+============================================================
+Running: member4 - exp_032_bs128_nl6_nh8_ne256_bsz16_mi50_dr0.2
+============================================================
+✓ Completed in 131.23 seconds
+  Log saved to: experiments/member4/logs/exp_032_bs128_nl6_nh8_ne256_bsz16_mi50_dr0.2.log
+
+############################################################
+# ALL EXPERIMENTS COMPLETED
+# Total time: 68.65 minutes
+# Results saved to: experiments/final_results.json
+############################################################
+
+Success: 128/128
+Failed: 0/128

@@ -1,0 +1,145 @@
+Experiment: exp_007_bs64_nl6_nh4_ne128_bsz16_mi50_dr0.1
+Config: experiments/member2/configs/exp_007_bs64_nl6_nh4_ne128_bsz16_mi50_dr0.1.py
+Started: Tue Oct 28 18:23:11 2025
+============================================================
+
+/workspaces/group-assignment/nanoGPT/train.py:196: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/home/codespace/.local/lib/python3.12/site-packages/torch/amp/grad_scaler.py:136: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
+  warnings.warn(
+Overriding config with config/train_shakespeare_char.py:
+# train a miniature character-level shakespeare model
+# good for debugging and playing on macbooks and such
+
+out_dir = 'out-shakespeare-char'
+eval_interval = 250 # keep frequent because we'll overfit
+eval_iters = 200
+log_interval = 10 # don't print too too often
+
+# we expect to overfit on this small dataset, so only save when val improves
+always_save_checkpoint = False
+
+wandb_log = False # override via command line if you like
+wandb_project = 'shakespeare-char'
+wandb_run_name = 'mini-gpt'
+
+dataset = 'shakespeare_char'
+gradient_accumulation_steps = 1
+batch_size = 64
+block_size = 256 # context of up to 256 previous characters
+
+# baby GPT model :)
+n_layer = 6
+n_head = 6
+n_embd = 384
+dropout = 0.2
+
+learning_rate = 1e-3 # with baby networks can afford to go a bit higher
+max_iters = 5000
+lr_decay_iters = 5000 # make equal to max_iters usually
+min_lr = 1e-4 # learning_rate / 10 usually
+beta2 = 0.99 # make a bit bigger because number of tokens per iter is small
+
+warmup_iters = 100 # not super necessary potentially
+
+# on macbook also add
+# device = 'cpu'  # run on cpu only
+# compile = False # do not torch compile the model
+
+Overriding config with ../experiments/member2/configs/exp_007_bs64_nl6_nh4_ne128_bsz16_mi50_dr0.1.py:
+# Experiment configuration
+dataset = "shakespeare_char"
+gradient_accumulation_steps = 1
+learning_rate = 0.001
+decay_lr = True
+warmup_iters = 10
+min_lr = 0.0001
+eval_interval = 10
+eval_iters = 20
+log_interval = 1
+always_save_checkpoint = False
+device = "cpu"
+compile = False
+block_size = 64
+n_layer = 6
+n_head = 4
+n_embd = 128
+batch_size = 16
+max_iters = 50
+dropout = 0.1
+lr_decay_iters = 50
+out_dir = "experiments/member2/results/exp_007_bs64_nl6_nh4_ne128_bsz16_mi50_dr0.1"
+
+tokens per iteration will be: 1,024
+found vocab_size = 65 (inside data/shakespeare_char/meta.pkl)
+Initializing a new model from scratch
+number of parameters: 1.19M
+num decayed parameter tensors: 26, with 1,196,160 parameters
+num non-decayed parameter tensors: 13, with 1,664 parameters
+using fused AdamW: False
+step 0: train loss 4.1893, val loss 4.1842
+iter 0: loss 4.1874, time 2170.80ms, mfu -100.00%
+iter 1: loss 4.0322, time 170.72ms, mfu -100.00%
+iter 2: loss 3.8242, time 159.18ms, mfu -100.00%
+iter 3: loss 3.7259, time 159.66ms, mfu -100.00%
+iter 4: loss 3.6494, time 174.28ms, mfu -100.00%
+iter 5: loss 3.6087, time 161.52ms, mfu 0.02%
+iter 6: loss 3.5636, time 177.34ms, mfu 0.02%
+iter 7: loss 3.5201, time 159.82ms, mfu 0.02%
+iter 8: loss 3.4339, time 168.81ms, mfu 0.02%
+iter 9: loss 3.3768, time 189.20ms, mfu 0.02%
+step 10: train loss 3.3067, val loss 3.3202
+saving checkpoint to experiments/member2/results/exp_007_bs64_nl6_nh4_ne128_bsz16_mi50_dr0.1
+iter 10: loss 3.3434, time 1757.95ms, mfu 0.01%
+iter 11: loss 3.3020, time 161.19ms, mfu 0.01%
+iter 12: loss 3.2397, time 176.66ms, mfu 0.01%
+iter 13: loss 3.1715, time 159.69ms, mfu 0.01%
+iter 14: loss 3.0723, time 162.33ms, mfu 0.01%
+iter 15: loss 3.1398, time 178.92ms, mfu 0.01%
+iter 16: loss 3.0449, time 162.58ms, mfu 0.01%
+iter 17: loss 2.9630, time 159.95ms, mfu 0.01%
+iter 18: loss 2.9526, time 162.89ms, mfu 0.01%
+iter 19: loss 2.9386, time 224.06ms, mfu 0.01%
+step 20: train loss 2.9198, val loss 2.9336
+saving checkpoint to experiments/member2/results/exp_007_bs64_nl6_nh4_ne128_bsz16_mi50_dr0.1
+iter 20: loss 3.0012, time 1855.86ms, mfu 0.01%
+iter 21: loss 2.9109, time 172.02ms, mfu 0.01%
+iter 22: loss 2.9297, time 176.18ms, mfu 0.01%
+iter 23: loss 2.9281, time 162.46ms, mfu 0.01%
+iter 24: loss 2.8327, time 159.83ms, mfu 0.01%
+iter 25: loss 2.8742, time 160.94ms, mfu 0.01%
+iter 26: loss 2.8792, time 173.24ms, mfu 0.01%
+iter 27: loss 2.7762, time 160.57ms, mfu 0.01%
+iter 28: loss 2.8032, time 163.60ms, mfu 0.01%
+iter 29: loss 2.7737, time 159.43ms, mfu 0.01%
+step 30: train loss 2.7895, val loss 2.7763
+saving checkpoint to experiments/member2/results/exp_007_bs64_nl6_nh4_ne128_bsz16_mi50_dr0.1
+iter 30: loss 2.8574, time 1836.98ms, mfu 0.01%
+iter 31: loss 2.8130, time 210.10ms, mfu 0.01%
+iter 32: loss 2.7724, time 166.11ms, mfu 0.01%
+iter 33: loss 2.7597, time 161.21ms, mfu 0.01%
+iter 34: loss 2.8026, time 171.07ms, mfu 0.01%
+iter 35: loss 2.7369, time 158.93ms, mfu 0.01%
+iter 36: loss 2.7177, time 164.52ms, mfu 0.01%
+iter 37: loss 2.8035, time 159.00ms, mfu 0.01%
+iter 38: loss 2.7325, time 179.02ms, mfu 0.01%
+iter 39: loss 2.7684, time 171.00ms, mfu 0.01%
+step 40: train loss 2.7291, val loss 2.7340
+saving checkpoint to experiments/member2/results/exp_007_bs64_nl6_nh4_ne128_bsz16_mi50_dr0.1
+iter 40: loss 2.7913, time 1820.47ms, mfu 0.01%
+iter 41: loss 2.7746, time 160.04ms, mfu 0.01%
+iter 42: loss 2.7252, time 159.81ms, mfu 0.01%
+iter 43: loss 2.6659, time 170.83ms, mfu 0.01%
+iter 44: loss 2.6968, time 164.67ms, mfu 0.01%
+iter 45: loss 2.8443, time 165.31ms, mfu 0.01%
+iter 46: loss 2.7269, time 174.50ms, mfu 0.01%
+iter 47: loss 2.6942, time 160.80ms, mfu 0.01%
+iter 48: loss 2.7280, time 160.38ms, mfu 0.01%
+iter 49: loss 2.6797, time 167.26ms, mfu 0.01%
+step 50: train loss 2.6881, val loss 2.7105
+saving checkpoint to experiments/member2/results/exp_007_bs64_nl6_nh4_ne128_bsz16_mi50_dr0.1
+iter 50: loss 2.8428, time 1935.61ms, mfu 0.01%
+
+============================================================
+Completed: Tue Oct 28 18:23:33 2025
+Duration: 21.73 seconds

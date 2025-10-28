@@ -1,0 +1,114 @@
+Experiment: exp_017_bs64_nl4_nh8_ne128_bsz8_mi25_dr0.1
+Config: experiments/member1/configs/exp_017_bs64_nl4_nh8_ne128_bsz8_mi25_dr0.1.py
+Started: Tue Oct 28 18:17:05 2025
+============================================================
+
+/workspaces/group-assignment/nanoGPT/train.py:196: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/home/codespace/.local/lib/python3.12/site-packages/torch/amp/grad_scaler.py:136: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
+  warnings.warn(
+Overriding config with config/train_shakespeare_char.py:
+# train a miniature character-level shakespeare model
+# good for debugging and playing on macbooks and such
+
+out_dir = 'out-shakespeare-char'
+eval_interval = 250 # keep frequent because we'll overfit
+eval_iters = 200
+log_interval = 10 # don't print too too often
+
+# we expect to overfit on this small dataset, so only save when val improves
+always_save_checkpoint = False
+
+wandb_log = False # override via command line if you like
+wandb_project = 'shakespeare-char'
+wandb_run_name = 'mini-gpt'
+
+dataset = 'shakespeare_char'
+gradient_accumulation_steps = 1
+batch_size = 64
+block_size = 256 # context of up to 256 previous characters
+
+# baby GPT model :)
+n_layer = 6
+n_head = 6
+n_embd = 384
+dropout = 0.2
+
+learning_rate = 1e-3 # with baby networks can afford to go a bit higher
+max_iters = 5000
+lr_decay_iters = 5000 # make equal to max_iters usually
+min_lr = 1e-4 # learning_rate / 10 usually
+beta2 = 0.99 # make a bit bigger because number of tokens per iter is small
+
+warmup_iters = 100 # not super necessary potentially
+
+# on macbook also add
+# device = 'cpu'  # run on cpu only
+# compile = False # do not torch compile the model
+
+Overriding config with ../experiments/member1/configs/exp_017_bs64_nl4_nh8_ne128_bsz8_mi25_dr0.1.py:
+# Experiment configuration
+dataset = "shakespeare_char"
+gradient_accumulation_steps = 1
+learning_rate = 0.001
+decay_lr = True
+warmup_iters = 10
+min_lr = 0.0001
+eval_interval = 10
+eval_iters = 20
+log_interval = 1
+always_save_checkpoint = False
+device = "cpu"
+compile = False
+block_size = 64
+n_layer = 4
+n_head = 8
+n_embd = 128
+batch_size = 8
+max_iters = 25
+dropout = 0.1
+lr_decay_iters = 25
+out_dir = "experiments/member1/results/exp_017_bs64_nl4_nh8_ne128_bsz8_mi25_dr0.1"
+
+tokens per iteration will be: 512
+found vocab_size = 65 (inside data/shakespeare_char/meta.pkl)
+Initializing a new model from scratch
+number of parameters: 0.80M
+num decayed parameter tensors: 18, with 802,944 parameters
+num non-decayed parameter tensors: 9, with 1,152 parameters
+using fused AdamW: False
+step 0: train loss 4.1666, val loss 4.1646
+iter 0: loss 4.1971, time 943.88ms, mfu -100.00%
+iter 1: loss 4.0746, time 80.66ms, mfu -100.00%
+iter 2: loss 3.9019, time 82.65ms, mfu -100.00%
+iter 3: loss 3.7822, time 76.72ms, mfu -100.00%
+iter 4: loss 3.6911, time 74.39ms, mfu -100.00%
+iter 5: loss 3.7078, time 73.12ms, mfu 0.01%
+iter 6: loss 3.6789, time 75.97ms, mfu 0.01%
+iter 7: loss 3.6011, time 72.92ms, mfu 0.01%
+iter 8: loss 3.5435, time 74.52ms, mfu 0.01%
+iter 9: loss 3.4471, time 73.75ms, mfu 0.01%
+step 10: train loss 3.3849, val loss 3.4177
+saving checkpoint to experiments/member1/results/exp_017_bs64_nl4_nh8_ne128_bsz8_mi25_dr0.1
+iter 10: loss 3.4485, time 745.14ms, mfu 0.01%
+iter 11: loss 3.4367, time 90.06ms, mfu 0.01%
+iter 12: loss 3.3432, time 70.98ms, mfu 0.01%
+iter 13: loss 3.2856, time 70.70ms, mfu 0.01%
+iter 14: loss 3.1920, time 70.09ms, mfu 0.01%
+iter 15: loss 3.1547, time 72.31ms, mfu 0.01%
+iter 16: loss 3.2249, time 73.36ms, mfu 0.01%
+iter 17: loss 3.0954, time 86.65ms, mfu 0.01%
+iter 18: loss 3.0424, time 72.97ms, mfu 0.01%
+iter 19: loss 3.0746, time 70.89ms, mfu 0.01%
+step 20: train loss 3.0634, val loss 3.0731
+saving checkpoint to experiments/member1/results/exp_017_bs64_nl4_nh8_ne128_bsz8_mi25_dr0.1
+iter 20: loss 3.0213, time 868.12ms, mfu 0.01%
+iter 21: loss 3.0718, time 74.69ms, mfu 0.01%
+iter 22: loss 3.0796, time 77.32ms, mfu 0.01%
+iter 23: loss 3.0477, time 81.08ms, mfu 0.01%
+iter 24: loss 3.0676, time 75.66ms, mfu 0.01%
+iter 25: loss 2.9618, time 70.36ms, mfu 0.01%
+
+============================================================
+Completed: Tue Oct 28 18:17:13 2025
+Duration: 7.56 seconds

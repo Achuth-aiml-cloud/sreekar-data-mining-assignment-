@@ -1,0 +1,1033 @@
+{
+  "total_experiments": 128,
+  "start_time": "Tue Oct 28 18:11:32 2025",
+  "end_time": "Tue Oct 28 19:20:11 2025",
+  "total_duration_seconds": 4119.115936517715,
+  "total_duration_hours": 1.144198871254921,
+  "results": [
+    {
+      "status": "success",
+      "duration": 7.579096794128418,
+      "log_file": "experiments/member1/logs/exp_001_bs64_nl4_nh4_ne128_bsz8_mi25_dr0.1.log",
+      "member": "member1",
+      "exp_name": "exp_001_bs64_nl4_nh4_ne128_bsz8_mi25_dr0.1",
+      "config_path": "experiments/member1/configs/exp_001_bs64_nl4_nh4_ne128_bsz8_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 7.945624351501465,
+      "log_file": "experiments/member1/logs/exp_002_bs64_nl4_nh4_ne128_bsz8_mi25_dr0.2.log",
+      "member": "member1",
+      "exp_name": "exp_002_bs64_nl4_nh4_ne128_bsz8_mi25_dr0.2",
+      "config_path": "experiments/member1/configs/exp_002_bs64_nl4_nh4_ne128_bsz8_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 11.812198162078857,
+      "log_file": "experiments/member1/logs/exp_003_bs64_nl4_nh4_ne128_bsz8_mi50_dr0.1.log",
+      "member": "member1",
+      "exp_name": "exp_003_bs64_nl4_nh4_ne128_bsz8_mi50_dr0.1",
+      "config_path": "experiments/member1/configs/exp_003_bs64_nl4_nh4_ne128_bsz8_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 11.83270263671875,
+      "log_file": "experiments/member1/logs/exp_004_bs64_nl4_nh4_ne128_bsz8_mi50_dr0.2.log",
+      "member": "member1",
+      "exp_name": "exp_004_bs64_nl4_nh4_ne128_bsz8_mi50_dr0.2",
+      "config_path": "experiments/member1/configs/exp_004_bs64_nl4_nh4_ne128_bsz8_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 11.808997869491577,
+      "log_file": "experiments/member1/logs/exp_005_bs64_nl4_nh4_ne128_bsz16_mi25_dr0.1.log",
+      "member": "member1",
+      "exp_name": "exp_005_bs64_nl4_nh4_ne128_bsz16_mi25_dr0.1",
+      "config_path": "experiments/member1/configs/exp_005_bs64_nl4_nh4_ne128_bsz16_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 12.323768615722656,
+      "log_file": "experiments/member1/logs/exp_006_bs64_nl4_nh4_ne128_bsz16_mi25_dr0.2.log",
+      "member": "member1",
+      "exp_name": "exp_006_bs64_nl4_nh4_ne128_bsz16_mi25_dr0.2",
+      "config_path": "experiments/member1/configs/exp_006_bs64_nl4_nh4_ne128_bsz16_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 16.808836221694946,
+      "log_file": "experiments/member1/logs/exp_007_bs64_nl4_nh4_ne128_bsz16_mi50_dr0.1.log",
+      "member": "member1",
+      "exp_name": "exp_007_bs64_nl4_nh4_ne128_bsz16_mi50_dr0.1",
+      "config_path": "experiments/member1/configs/exp_007_bs64_nl4_nh4_ne128_bsz16_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 15.963730096817017,
+      "log_file": "experiments/member1/logs/exp_008_bs64_nl4_nh4_ne128_bsz16_mi50_dr0.2.log",
+      "member": "member1",
+      "exp_name": "exp_008_bs64_nl4_nh4_ne128_bsz16_mi50_dr0.2",
+      "config_path": "experiments/member1/configs/exp_008_bs64_nl4_nh4_ne128_bsz16_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 15.647109270095825,
+      "log_file": "experiments/member1/logs/exp_009_bs64_nl4_nh4_ne256_bsz8_mi25_dr0.1.log",
+      "member": "member1",
+      "exp_name": "exp_009_bs64_nl4_nh4_ne256_bsz8_mi25_dr0.1",
+      "config_path": "experiments/member1/configs/exp_009_bs64_nl4_nh4_ne256_bsz8_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 15.38701343536377,
+      "log_file": "experiments/member1/logs/exp_010_bs64_nl4_nh4_ne256_bsz8_mi25_dr0.2.log",
+      "member": "member1",
+      "exp_name": "exp_010_bs64_nl4_nh4_ne256_bsz8_mi25_dr0.2",
+      "config_path": "experiments/member1/configs/exp_010_bs64_nl4_nh4_ne256_bsz8_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 28.568934202194214,
+      "log_file": "experiments/member1/logs/exp_011_bs64_nl4_nh4_ne256_bsz8_mi50_dr0.1.log",
+      "member": "member1",
+      "exp_name": "exp_011_bs64_nl4_nh4_ne256_bsz8_mi50_dr0.1",
+      "config_path": "experiments/member1/configs/exp_011_bs64_nl4_nh4_ne256_bsz8_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 27.848631143569946,
+      "log_file": "experiments/member1/logs/exp_012_bs64_nl4_nh4_ne256_bsz8_mi50_dr0.2.log",
+      "member": "member1",
+      "exp_name": "exp_012_bs64_nl4_nh4_ne256_bsz8_mi50_dr0.2",
+      "config_path": "experiments/member1/configs/exp_012_bs64_nl4_nh4_ne256_bsz8_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 25.642906188964844,
+      "log_file": "experiments/member1/logs/exp_013_bs64_nl4_nh4_ne256_bsz16_mi25_dr0.1.log",
+      "member": "member1",
+      "exp_name": "exp_013_bs64_nl4_nh4_ne256_bsz16_mi25_dr0.1",
+      "config_path": "experiments/member1/configs/exp_013_bs64_nl4_nh4_ne256_bsz16_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 28.94295048713684,
+      "log_file": "experiments/member1/logs/exp_014_bs64_nl4_nh4_ne256_bsz16_mi25_dr0.2.log",
+      "member": "member1",
+      "exp_name": "exp_014_bs64_nl4_nh4_ne256_bsz16_mi25_dr0.2",
+      "config_path": "experiments/member1/configs/exp_014_bs64_nl4_nh4_ne256_bsz16_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 48.34834694862366,
+      "log_file": "experiments/member1/logs/exp_015_bs64_nl4_nh4_ne256_bsz16_mi50_dr0.1.log",
+      "member": "member1",
+      "exp_name": "exp_015_bs64_nl4_nh4_ne256_bsz16_mi50_dr0.1",
+      "config_path": "experiments/member1/configs/exp_015_bs64_nl4_nh4_ne256_bsz16_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 46.80744504928589,
+      "log_file": "experiments/member1/logs/exp_016_bs64_nl4_nh4_ne256_bsz16_mi50_dr0.2.log",
+      "member": "member1",
+      "exp_name": "exp_016_bs64_nl4_nh4_ne256_bsz16_mi50_dr0.2",
+      "config_path": "experiments/member1/configs/exp_016_bs64_nl4_nh4_ne256_bsz16_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 7.562926769256592,
+      "log_file": "experiments/member1/logs/exp_017_bs64_nl4_nh8_ne128_bsz8_mi25_dr0.1.log",
+      "member": "member1",
+      "exp_name": "exp_017_bs64_nl4_nh8_ne128_bsz8_mi25_dr0.1",
+      "config_path": "experiments/member1/configs/exp_017_bs64_nl4_nh8_ne128_bsz8_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 7.751607894897461,
+      "log_file": "experiments/member1/logs/exp_018_bs64_nl4_nh8_ne128_bsz8_mi25_dr0.2.log",
+      "member": "member1",
+      "exp_name": "exp_018_bs64_nl4_nh8_ne128_bsz8_mi25_dr0.2",
+      "config_path": "experiments/member1/configs/exp_018_bs64_nl4_nh8_ne128_bsz8_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 12.499200582504272,
+      "log_file": "experiments/member1/logs/exp_019_bs64_nl4_nh8_ne128_bsz8_mi50_dr0.1.log",
+      "member": "member1",
+      "exp_name": "exp_019_bs64_nl4_nh8_ne128_bsz8_mi50_dr0.1",
+      "config_path": "experiments/member1/configs/exp_019_bs64_nl4_nh8_ne128_bsz8_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 12.020381450653076,
+      "log_file": "experiments/member1/logs/exp_020_bs64_nl4_nh8_ne128_bsz8_mi50_dr0.2.log",
+      "member": "member1",
+      "exp_name": "exp_020_bs64_nl4_nh8_ne128_bsz8_mi50_dr0.2",
+      "config_path": "experiments/member1/configs/exp_020_bs64_nl4_nh8_ne128_bsz8_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 11.10542106628418,
+      "log_file": "experiments/member1/logs/exp_021_bs64_nl4_nh8_ne128_bsz16_mi25_dr0.1.log",
+      "member": "member1",
+      "exp_name": "exp_021_bs64_nl4_nh8_ne128_bsz16_mi25_dr0.1",
+      "config_path": "experiments/member1/configs/exp_021_bs64_nl4_nh8_ne128_bsz16_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 10.363732099533081,
+      "log_file": "experiments/member1/logs/exp_022_bs64_nl4_nh8_ne128_bsz16_mi25_dr0.2.log",
+      "member": "member1",
+      "exp_name": "exp_022_bs64_nl4_nh8_ne128_bsz16_mi25_dr0.2",
+      "config_path": "experiments/member1/configs/exp_022_bs64_nl4_nh8_ne128_bsz16_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 16.822508096694946,
+      "log_file": "experiments/member1/logs/exp_023_bs64_nl4_nh8_ne128_bsz16_mi50_dr0.1.log",
+      "member": "member1",
+      "exp_name": "exp_023_bs64_nl4_nh8_ne128_bsz16_mi50_dr0.1",
+      "config_path": "experiments/member1/configs/exp_023_bs64_nl4_nh8_ne128_bsz16_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 17.400662422180176,
+      "log_file": "experiments/member1/logs/exp_024_bs64_nl4_nh8_ne128_bsz16_mi50_dr0.2.log",
+      "member": "member1",
+      "exp_name": "exp_024_bs64_nl4_nh8_ne128_bsz16_mi50_dr0.2",
+      "config_path": "experiments/member1/configs/exp_024_bs64_nl4_nh8_ne128_bsz16_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 13.219642162322998,
+      "log_file": "experiments/member1/logs/exp_025_bs64_nl4_nh8_ne256_bsz8_mi25_dr0.1.log",
+      "member": "member1",
+      "exp_name": "exp_025_bs64_nl4_nh8_ne256_bsz8_mi25_dr0.1",
+      "config_path": "experiments/member1/configs/exp_025_bs64_nl4_nh8_ne256_bsz8_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 13.638386726379395,
+      "log_file": "experiments/member1/logs/exp_026_bs64_nl4_nh8_ne256_bsz8_mi25_dr0.2.log",
+      "member": "member1",
+      "exp_name": "exp_026_bs64_nl4_nh8_ne256_bsz8_mi25_dr0.2",
+      "config_path": "experiments/member1/configs/exp_026_bs64_nl4_nh8_ne256_bsz8_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 23.478931665420532,
+      "log_file": "experiments/member1/logs/exp_027_bs64_nl4_nh8_ne256_bsz8_mi50_dr0.1.log",
+      "member": "member1",
+      "exp_name": "exp_027_bs64_nl4_nh8_ne256_bsz8_mi50_dr0.1",
+      "config_path": "experiments/member1/configs/exp_027_bs64_nl4_nh8_ne256_bsz8_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 23.847030639648438,
+      "log_file": "experiments/member1/logs/exp_028_bs64_nl4_nh8_ne256_bsz8_mi50_dr0.2.log",
+      "member": "member1",
+      "exp_name": "exp_028_bs64_nl4_nh8_ne256_bsz8_mi50_dr0.2",
+      "config_path": "experiments/member1/configs/exp_028_bs64_nl4_nh8_ne256_bsz8_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 22.505544424057007,
+      "log_file": "experiments/member1/logs/exp_029_bs64_nl4_nh8_ne256_bsz16_mi25_dr0.1.log",
+      "member": "member1",
+      "exp_name": "exp_029_bs64_nl4_nh8_ne256_bsz16_mi25_dr0.1",
+      "config_path": "experiments/member1/configs/exp_029_bs64_nl4_nh8_ne256_bsz16_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 22.732473850250244,
+      "log_file": "experiments/member1/logs/exp_030_bs64_nl4_nh8_ne256_bsz16_mi25_dr0.2.log",
+      "member": "member1",
+      "exp_name": "exp_030_bs64_nl4_nh8_ne256_bsz16_mi25_dr0.2",
+      "config_path": "experiments/member1/configs/exp_030_bs64_nl4_nh8_ne256_bsz16_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 41.56725335121155,
+      "log_file": "experiments/member1/logs/exp_031_bs64_nl4_nh8_ne256_bsz16_mi50_dr0.1.log",
+      "member": "member1",
+      "exp_name": "exp_031_bs64_nl4_nh8_ne256_bsz16_mi50_dr0.1",
+      "config_path": "experiments/member1/configs/exp_031_bs64_nl4_nh8_ne256_bsz16_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 42.289355754852295,
+      "log_file": "experiments/member1/logs/exp_032_bs64_nl4_nh8_ne256_bsz16_mi50_dr0.2.log",
+      "member": "member1",
+      "exp_name": "exp_032_bs64_nl4_nh8_ne256_bsz16_mi50_dr0.2",
+      "config_path": "experiments/member1/configs/exp_032_bs64_nl4_nh8_ne256_bsz16_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 8.050405740737915,
+      "log_file": "experiments/member2/logs/exp_001_bs64_nl6_nh4_ne128_bsz8_mi25_dr0.1.log",
+      "member": "member2",
+      "exp_name": "exp_001_bs64_nl6_nh4_ne128_bsz8_mi25_dr0.1",
+      "config_path": "experiments/member2/configs/exp_001_bs64_nl6_nh4_ne128_bsz8_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 8.092544317245483,
+      "log_file": "experiments/member2/logs/exp_002_bs64_nl6_nh4_ne128_bsz8_mi25_dr0.2.log",
+      "member": "member2",
+      "exp_name": "exp_002_bs64_nl6_nh4_ne128_bsz8_mi25_dr0.2",
+      "config_path": "experiments/member2/configs/exp_002_bs64_nl6_nh4_ne128_bsz8_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 12.867899179458618,
+      "log_file": "experiments/member2/logs/exp_003_bs64_nl6_nh4_ne128_bsz8_mi50_dr0.1.log",
+      "member": "member2",
+      "exp_name": "exp_003_bs64_nl6_nh4_ne128_bsz8_mi50_dr0.1",
+      "config_path": "experiments/member2/configs/exp_003_bs64_nl6_nh4_ne128_bsz8_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 13.22419810295105,
+      "log_file": "experiments/member2/logs/exp_004_bs64_nl6_nh4_ne128_bsz8_mi50_dr0.2.log",
+      "member": "member2",
+      "exp_name": "exp_004_bs64_nl6_nh4_ne128_bsz8_mi50_dr0.2",
+      "config_path": "experiments/member2/configs/exp_004_bs64_nl6_nh4_ne128_bsz8_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 12.444392442703247,
+      "log_file": "experiments/member2/logs/exp_005_bs64_nl6_nh4_ne128_bsz16_mi25_dr0.1.log",
+      "member": "member2",
+      "exp_name": "exp_005_bs64_nl6_nh4_ne128_bsz16_mi25_dr0.1",
+      "config_path": "experiments/member2/configs/exp_005_bs64_nl6_nh4_ne128_bsz16_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 12.833870649337769,
+      "log_file": "experiments/member2/logs/exp_006_bs64_nl6_nh4_ne128_bsz16_mi25_dr0.2.log",
+      "member": "member2",
+      "exp_name": "exp_006_bs64_nl6_nh4_ne128_bsz16_mi25_dr0.2",
+      "config_path": "experiments/member2/configs/exp_006_bs64_nl6_nh4_ne128_bsz16_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 21.73342251777649,
+      "log_file": "experiments/member2/logs/exp_007_bs64_nl6_nh4_ne128_bsz16_mi50_dr0.1.log",
+      "member": "member2",
+      "exp_name": "exp_007_bs64_nl6_nh4_ne128_bsz16_mi50_dr0.1",
+      "config_path": "experiments/member2/configs/exp_007_bs64_nl6_nh4_ne128_bsz16_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 22.03240656852722,
+      "log_file": "experiments/member2/logs/exp_008_bs64_nl6_nh4_ne128_bsz16_mi50_dr0.2.log",
+      "member": "member2",
+      "exp_name": "exp_008_bs64_nl6_nh4_ne128_bsz16_mi50_dr0.2",
+      "config_path": "experiments/member2/configs/exp_008_bs64_nl6_nh4_ne128_bsz16_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 18.00149941444397,
+      "log_file": "experiments/member2/logs/exp_009_bs64_nl6_nh4_ne256_bsz8_mi25_dr0.1.log",
+      "member": "member2",
+      "exp_name": "exp_009_bs64_nl6_nh4_ne256_bsz8_mi25_dr0.1",
+      "config_path": "experiments/member2/configs/exp_009_bs64_nl6_nh4_ne256_bsz8_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 17.752435207366943,
+      "log_file": "experiments/member2/logs/exp_010_bs64_nl6_nh4_ne256_bsz8_mi25_dr0.2.log",
+      "member": "member2",
+      "exp_name": "exp_010_bs64_nl6_nh4_ne256_bsz8_mi25_dr0.2",
+      "config_path": "experiments/member2/configs/exp_010_bs64_nl6_nh4_ne256_bsz8_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 32.84848690032959,
+      "log_file": "experiments/member2/logs/exp_011_bs64_nl6_nh4_ne256_bsz8_mi50_dr0.1.log",
+      "member": "member2",
+      "exp_name": "exp_011_bs64_nl6_nh4_ne256_bsz8_mi50_dr0.1",
+      "config_path": "experiments/member2/configs/exp_011_bs64_nl6_nh4_ne256_bsz8_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 33.270286321640015,
+      "log_file": "experiments/member2/logs/exp_012_bs64_nl6_nh4_ne256_bsz8_mi50_dr0.2.log",
+      "member": "member2",
+      "exp_name": "exp_012_bs64_nl6_nh4_ne256_bsz8_mi50_dr0.2",
+      "config_path": "experiments/member2/configs/exp_012_bs64_nl6_nh4_ne256_bsz8_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 31.418591737747192,
+      "log_file": "experiments/member2/logs/exp_013_bs64_nl6_nh4_ne256_bsz16_mi25_dr0.1.log",
+      "member": "member2",
+      "exp_name": "exp_013_bs64_nl6_nh4_ne256_bsz16_mi25_dr0.1",
+      "config_path": "experiments/member2/configs/exp_013_bs64_nl6_nh4_ne256_bsz16_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 31.650166988372803,
+      "log_file": "experiments/member2/logs/exp_014_bs64_nl6_nh4_ne256_bsz16_mi25_dr0.2.log",
+      "member": "member2",
+      "exp_name": "exp_014_bs64_nl6_nh4_ne256_bsz16_mi25_dr0.2",
+      "config_path": "experiments/member2/configs/exp_014_bs64_nl6_nh4_ne256_bsz16_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 58.72203016281128,
+      "log_file": "experiments/member2/logs/exp_015_bs64_nl6_nh4_ne256_bsz16_mi50_dr0.1.log",
+      "member": "member2",
+      "exp_name": "exp_015_bs64_nl6_nh4_ne256_bsz16_mi50_dr0.1",
+      "config_path": "experiments/member2/configs/exp_015_bs64_nl6_nh4_ne256_bsz16_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 58.81411385536194,
+      "log_file": "experiments/member2/logs/exp_016_bs64_nl6_nh4_ne256_bsz16_mi50_dr0.2.log",
+      "member": "member2",
+      "exp_name": "exp_016_bs64_nl6_nh4_ne256_bsz16_mi50_dr0.2",
+      "config_path": "experiments/member2/configs/exp_016_bs64_nl6_nh4_ne256_bsz16_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 8.732675313949585,
+      "log_file": "experiments/member2/logs/exp_017_bs64_nl6_nh8_ne128_bsz8_mi25_dr0.1.log",
+      "member": "member2",
+      "exp_name": "exp_017_bs64_nl6_nh8_ne128_bsz8_mi25_dr0.1",
+      "config_path": "experiments/member2/configs/exp_017_bs64_nl6_nh8_ne128_bsz8_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 8.645911455154419,
+      "log_file": "experiments/member2/logs/exp_018_bs64_nl6_nh8_ne128_bsz8_mi25_dr0.2.log",
+      "member": "member2",
+      "exp_name": "exp_018_bs64_nl6_nh8_ne128_bsz8_mi25_dr0.2",
+      "config_path": "experiments/member2/configs/exp_018_bs64_nl6_nh8_ne128_bsz8_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 13.899248123168945,
+      "log_file": "experiments/member2/logs/exp_019_bs64_nl6_nh8_ne128_bsz8_mi50_dr0.1.log",
+      "member": "member2",
+      "exp_name": "exp_019_bs64_nl6_nh8_ne128_bsz8_mi50_dr0.1",
+      "config_path": "experiments/member2/configs/exp_019_bs64_nl6_nh8_ne128_bsz8_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 14.432729005813599,
+      "log_file": "experiments/member2/logs/exp_020_bs64_nl6_nh8_ne128_bsz8_mi50_dr0.2.log",
+      "member": "member2",
+      "exp_name": "exp_020_bs64_nl6_nh8_ne128_bsz8_mi50_dr0.2",
+      "config_path": "experiments/member2/configs/exp_020_bs64_nl6_nh8_ne128_bsz8_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 14.116313219070435,
+      "log_file": "experiments/member2/logs/exp_021_bs64_nl6_nh8_ne128_bsz16_mi25_dr0.1.log",
+      "member": "member2",
+      "exp_name": "exp_021_bs64_nl6_nh8_ne128_bsz16_mi25_dr0.1",
+      "config_path": "experiments/member2/configs/exp_021_bs64_nl6_nh8_ne128_bsz16_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 14.05116891860962,
+      "log_file": "experiments/member2/logs/exp_022_bs64_nl6_nh8_ne128_bsz16_mi25_dr0.2.log",
+      "member": "member2",
+      "exp_name": "exp_022_bs64_nl6_nh8_ne128_bsz16_mi25_dr0.2",
+      "config_path": "experiments/member2/configs/exp_022_bs64_nl6_nh8_ne128_bsz16_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 23.90519094467163,
+      "log_file": "experiments/member2/logs/exp_023_bs64_nl6_nh8_ne128_bsz16_mi50_dr0.1.log",
+      "member": "member2",
+      "exp_name": "exp_023_bs64_nl6_nh8_ne128_bsz16_mi50_dr0.1",
+      "config_path": "experiments/member2/configs/exp_023_bs64_nl6_nh8_ne128_bsz16_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 24.47708511352539,
+      "log_file": "experiments/member2/logs/exp_024_bs64_nl6_nh8_ne128_bsz16_mi50_dr0.2.log",
+      "member": "member2",
+      "exp_name": "exp_024_bs64_nl6_nh8_ne128_bsz16_mi50_dr0.2",
+      "config_path": "experiments/member2/configs/exp_024_bs64_nl6_nh8_ne128_bsz16_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 18.54078769683838,
+      "log_file": "experiments/member2/logs/exp_025_bs64_nl6_nh8_ne256_bsz8_mi25_dr0.1.log",
+      "member": "member2",
+      "exp_name": "exp_025_bs64_nl6_nh8_ne256_bsz8_mi25_dr0.1",
+      "config_path": "experiments/member2/configs/exp_025_bs64_nl6_nh8_ne256_bsz8_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 18.397217273712158,
+      "log_file": "experiments/member2/logs/exp_026_bs64_nl6_nh8_ne256_bsz8_mi25_dr0.2.log",
+      "member": "member2",
+      "exp_name": "exp_026_bs64_nl6_nh8_ne256_bsz8_mi25_dr0.2",
+      "config_path": "experiments/member2/configs/exp_026_bs64_nl6_nh8_ne256_bsz8_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 33.55817699432373,
+      "log_file": "experiments/member2/logs/exp_027_bs64_nl6_nh8_ne256_bsz8_mi50_dr0.1.log",
+      "member": "member2",
+      "exp_name": "exp_027_bs64_nl6_nh8_ne256_bsz8_mi50_dr0.1",
+      "config_path": "experiments/member2/configs/exp_027_bs64_nl6_nh8_ne256_bsz8_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 34.06023550033569,
+      "log_file": "experiments/member2/logs/exp_028_bs64_nl6_nh8_ne256_bsz8_mi50_dr0.2.log",
+      "member": "member2",
+      "exp_name": "exp_028_bs64_nl6_nh8_ne256_bsz8_mi50_dr0.2",
+      "config_path": "experiments/member2/configs/exp_028_bs64_nl6_nh8_ne256_bsz8_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 32.30805993080139,
+      "log_file": "experiments/member2/logs/exp_029_bs64_nl6_nh8_ne256_bsz16_mi25_dr0.1.log",
+      "member": "member2",
+      "exp_name": "exp_029_bs64_nl6_nh8_ne256_bsz16_mi25_dr0.1",
+      "config_path": "experiments/member2/configs/exp_029_bs64_nl6_nh8_ne256_bsz16_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 32.23780417442322,
+      "log_file": "experiments/member2/logs/exp_030_bs64_nl6_nh8_ne256_bsz16_mi25_dr0.2.log",
+      "member": "member2",
+      "exp_name": "exp_030_bs64_nl6_nh8_ne256_bsz16_mi25_dr0.2",
+      "config_path": "experiments/member2/configs/exp_030_bs64_nl6_nh8_ne256_bsz16_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 60.643965005874634,
+      "log_file": "experiments/member2/logs/exp_031_bs64_nl6_nh8_ne256_bsz16_mi50_dr0.1.log",
+      "member": "member2",
+      "exp_name": "exp_031_bs64_nl6_nh8_ne256_bsz16_mi50_dr0.1",
+      "config_path": "experiments/member2/configs/exp_031_bs64_nl6_nh8_ne256_bsz16_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 61.11397624015808,
+      "log_file": "experiments/member2/logs/exp_032_bs64_nl6_nh8_ne256_bsz16_mi50_dr0.2.log",
+      "member": "member2",
+      "exp_name": "exp_032_bs64_nl6_nh8_ne256_bsz16_mi50_dr0.2",
+      "config_path": "experiments/member2/configs/exp_032_bs64_nl6_nh8_ne256_bsz16_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 10.331797122955322,
+      "log_file": "experiments/member3/logs/exp_001_bs128_nl4_nh4_ne128_bsz8_mi25_dr0.1.log",
+      "member": "member3",
+      "exp_name": "exp_001_bs128_nl4_nh4_ne128_bsz8_mi25_dr0.1",
+      "config_path": "experiments/member3/configs/exp_001_bs128_nl4_nh4_ne128_bsz8_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 10.238067865371704,
+      "log_file": "experiments/member3/logs/exp_002_bs128_nl4_nh4_ne128_bsz8_mi25_dr0.2.log",
+      "member": "member3",
+      "exp_name": "exp_002_bs128_nl4_nh4_ne128_bsz8_mi25_dr0.2",
+      "config_path": "experiments/member3/configs/exp_002_bs128_nl4_nh4_ne128_bsz8_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 17.055357933044434,
+      "log_file": "experiments/member3/logs/exp_003_bs128_nl4_nh4_ne128_bsz8_mi50_dr0.1.log",
+      "member": "member3",
+      "exp_name": "exp_003_bs128_nl4_nh4_ne128_bsz8_mi50_dr0.1",
+      "config_path": "experiments/member3/configs/exp_003_bs128_nl4_nh4_ne128_bsz8_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 17.332631587982178,
+      "log_file": "experiments/member3/logs/exp_004_bs128_nl4_nh4_ne128_bsz8_mi50_dr0.2.log",
+      "member": "member3",
+      "exp_name": "exp_004_bs128_nl4_nh4_ne128_bsz8_mi50_dr0.2",
+      "config_path": "experiments/member3/configs/exp_004_bs128_nl4_nh4_ne128_bsz8_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 17.06670618057251,
+      "log_file": "experiments/member3/logs/exp_005_bs128_nl4_nh4_ne128_bsz16_mi25_dr0.1.log",
+      "member": "member3",
+      "exp_name": "exp_005_bs128_nl4_nh4_ne128_bsz16_mi25_dr0.1",
+      "config_path": "experiments/member3/configs/exp_005_bs128_nl4_nh4_ne128_bsz16_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 17.063525676727295,
+      "log_file": "experiments/member3/logs/exp_006_bs128_nl4_nh4_ne128_bsz16_mi25_dr0.2.log",
+      "member": "member3",
+      "exp_name": "exp_006_bs128_nl4_nh4_ne128_bsz16_mi25_dr0.2",
+      "config_path": "experiments/member3/configs/exp_006_bs128_nl4_nh4_ne128_bsz16_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 30.083357334136963,
+      "log_file": "experiments/member3/logs/exp_007_bs128_nl4_nh4_ne128_bsz16_mi50_dr0.1.log",
+      "member": "member3",
+      "exp_name": "exp_007_bs128_nl4_nh4_ne128_bsz16_mi50_dr0.1",
+      "config_path": "experiments/member3/configs/exp_007_bs128_nl4_nh4_ne128_bsz16_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 30.620115995407104,
+      "log_file": "experiments/member3/logs/exp_008_bs128_nl4_nh4_ne128_bsz16_mi50_dr0.2.log",
+      "member": "member3",
+      "exp_name": "exp_008_bs128_nl4_nh4_ne128_bsz16_mi50_dr0.2",
+      "config_path": "experiments/member3/configs/exp_008_bs128_nl4_nh4_ne128_bsz16_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 22.733956575393677,
+      "log_file": "experiments/member3/logs/exp_009_bs128_nl4_nh4_ne256_bsz8_mi25_dr0.1.log",
+      "member": "member3",
+      "exp_name": "exp_009_bs128_nl4_nh4_ne256_bsz8_mi25_dr0.1",
+      "config_path": "experiments/member3/configs/exp_009_bs128_nl4_nh4_ne256_bsz8_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 23.152400255203247,
+      "log_file": "experiments/member3/logs/exp_010_bs128_nl4_nh4_ne256_bsz8_mi25_dr0.2.log",
+      "member": "member3",
+      "exp_name": "exp_010_bs128_nl4_nh4_ne256_bsz8_mi25_dr0.2",
+      "config_path": "experiments/member3/configs/exp_010_bs128_nl4_nh4_ne256_bsz8_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 42.30193901062012,
+      "log_file": "experiments/member3/logs/exp_011_bs128_nl4_nh4_ne256_bsz8_mi50_dr0.1.log",
+      "member": "member3",
+      "exp_name": "exp_011_bs128_nl4_nh4_ne256_bsz8_mi50_dr0.1",
+      "config_path": "experiments/member3/configs/exp_011_bs128_nl4_nh4_ne256_bsz8_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 42.84924006462097,
+      "log_file": "experiments/member3/logs/exp_012_bs128_nl4_nh4_ne256_bsz8_mi50_dr0.2.log",
+      "member": "member3",
+      "exp_name": "exp_012_bs128_nl4_nh4_ne256_bsz8_mi50_dr0.2",
+      "config_path": "experiments/member3/configs/exp_012_bs128_nl4_nh4_ne256_bsz8_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 41.81921362876892,
+      "log_file": "experiments/member3/logs/exp_013_bs128_nl4_nh4_ne256_bsz16_mi25_dr0.1.log",
+      "member": "member3",
+      "exp_name": "exp_013_bs128_nl4_nh4_ne256_bsz16_mi25_dr0.1",
+      "config_path": "experiments/member3/configs/exp_013_bs128_nl4_nh4_ne256_bsz16_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 42.258315563201904,
+      "log_file": "experiments/member3/logs/exp_014_bs128_nl4_nh4_ne256_bsz16_mi25_dr0.2.log",
+      "member": "member3",
+      "exp_name": "exp_014_bs128_nl4_nh4_ne256_bsz16_mi25_dr0.2",
+      "config_path": "experiments/member3/configs/exp_014_bs128_nl4_nh4_ne256_bsz16_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 80.12740898132324,
+      "log_file": "experiments/member3/logs/exp_015_bs128_nl4_nh4_ne256_bsz16_mi50_dr0.1.log",
+      "member": "member3",
+      "exp_name": "exp_015_bs128_nl4_nh4_ne256_bsz16_mi50_dr0.1",
+      "config_path": "experiments/member3/configs/exp_015_bs128_nl4_nh4_ne256_bsz16_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 80.49570655822754,
+      "log_file": "experiments/member3/logs/exp_016_bs128_nl4_nh4_ne256_bsz16_mi50_dr0.2.log",
+      "member": "member3",
+      "exp_name": "exp_016_bs128_nl4_nh4_ne256_bsz16_mi50_dr0.2",
+      "config_path": "experiments/member3/configs/exp_016_bs128_nl4_nh4_ne256_bsz16_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 11.311240911483765,
+      "log_file": "experiments/member3/logs/exp_017_bs128_nl4_nh8_ne128_bsz8_mi25_dr0.1.log",
+      "member": "member3",
+      "exp_name": "exp_017_bs128_nl4_nh8_ne128_bsz8_mi25_dr0.1",
+      "config_path": "experiments/member3/configs/exp_017_bs128_nl4_nh8_ne128_bsz8_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 11.295083284378052,
+      "log_file": "experiments/member3/logs/exp_018_bs128_nl4_nh8_ne128_bsz8_mi25_dr0.2.log",
+      "member": "member3",
+      "exp_name": "exp_018_bs128_nl4_nh8_ne128_bsz8_mi25_dr0.2",
+      "config_path": "experiments/member3/configs/exp_018_bs128_nl4_nh8_ne128_bsz8_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 18.994301795959473,
+      "log_file": "experiments/member3/logs/exp_019_bs128_nl4_nh8_ne128_bsz8_mi50_dr0.1.log",
+      "member": "member3",
+      "exp_name": "exp_019_bs128_nl4_nh8_ne128_bsz8_mi50_dr0.1",
+      "config_path": "experiments/member3/configs/exp_019_bs128_nl4_nh8_ne128_bsz8_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 19.82502317428589,
+      "log_file": "experiments/member3/logs/exp_020_bs128_nl4_nh8_ne128_bsz8_mi50_dr0.2.log",
+      "member": "member3",
+      "exp_name": "exp_020_bs128_nl4_nh8_ne128_bsz8_mi50_dr0.2",
+      "config_path": "experiments/member3/configs/exp_020_bs128_nl4_nh8_ne128_bsz8_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 18.969316720962524,
+      "log_file": "experiments/member3/logs/exp_021_bs128_nl4_nh8_ne128_bsz16_mi25_dr0.1.log",
+      "member": "member3",
+      "exp_name": "exp_021_bs128_nl4_nh8_ne128_bsz16_mi25_dr0.1",
+      "config_path": "experiments/member3/configs/exp_021_bs128_nl4_nh8_ne128_bsz16_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 19.37727165222168,
+      "log_file": "experiments/member3/logs/exp_022_bs128_nl4_nh8_ne128_bsz16_mi25_dr0.2.log",
+      "member": "member3",
+      "exp_name": "exp_022_bs128_nl4_nh8_ne128_bsz16_mi25_dr0.2",
+      "config_path": "experiments/member3/configs/exp_022_bs128_nl4_nh8_ne128_bsz16_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 34.473074436187744,
+      "log_file": "experiments/member3/logs/exp_023_bs128_nl4_nh8_ne128_bsz16_mi50_dr0.1.log",
+      "member": "member3",
+      "exp_name": "exp_023_bs128_nl4_nh8_ne128_bsz16_mi50_dr0.1",
+      "config_path": "experiments/member3/configs/exp_023_bs128_nl4_nh8_ne128_bsz16_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 35.33687615394592,
+      "log_file": "experiments/member3/logs/exp_024_bs128_nl4_nh8_ne128_bsz16_mi50_dr0.2.log",
+      "member": "member3",
+      "exp_name": "exp_024_bs128_nl4_nh8_ne128_bsz16_mi50_dr0.2",
+      "config_path": "experiments/member3/configs/exp_024_bs128_nl4_nh8_ne128_bsz16_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 23.629815340042114,
+      "log_file": "experiments/member3/logs/exp_025_bs128_nl4_nh8_ne256_bsz8_mi25_dr0.1.log",
+      "member": "member3",
+      "exp_name": "exp_025_bs128_nl4_nh8_ne256_bsz8_mi25_dr0.1",
+      "config_path": "experiments/member3/configs/exp_025_bs128_nl4_nh8_ne256_bsz8_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 24.053666591644287,
+      "log_file": "experiments/member3/logs/exp_026_bs128_nl4_nh8_ne256_bsz8_mi25_dr0.2.log",
+      "member": "member3",
+      "exp_name": "exp_026_bs128_nl4_nh8_ne256_bsz8_mi25_dr0.2",
+      "config_path": "experiments/member3/configs/exp_026_bs128_nl4_nh8_ne256_bsz8_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 44.31821250915527,
+      "log_file": "experiments/member3/logs/exp_027_bs128_nl4_nh8_ne256_bsz8_mi50_dr0.1.log",
+      "member": "member3",
+      "exp_name": "exp_027_bs128_nl4_nh8_ne256_bsz8_mi50_dr0.1",
+      "config_path": "experiments/member3/configs/exp_027_bs128_nl4_nh8_ne256_bsz8_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 45.20721077919006,
+      "log_file": "experiments/member3/logs/exp_028_bs128_nl4_nh8_ne256_bsz8_mi50_dr0.2.log",
+      "member": "member3",
+      "exp_name": "exp_028_bs128_nl4_nh8_ne256_bsz8_mi50_dr0.2",
+      "config_path": "experiments/member3/configs/exp_028_bs128_nl4_nh8_ne256_bsz8_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 44.40798759460449,
+      "log_file": "experiments/member3/logs/exp_029_bs128_nl4_nh8_ne256_bsz16_mi25_dr0.1.log",
+      "member": "member3",
+      "exp_name": "exp_029_bs128_nl4_nh8_ne256_bsz16_mi25_dr0.1",
+      "config_path": "experiments/member3/configs/exp_029_bs128_nl4_nh8_ne256_bsz16_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 44.68381214141846,
+      "log_file": "experiments/member3/logs/exp_030_bs128_nl4_nh8_ne256_bsz16_mi25_dr0.2.log",
+      "member": "member3",
+      "exp_name": "exp_030_bs128_nl4_nh8_ne256_bsz16_mi25_dr0.2",
+      "config_path": "experiments/member3/configs/exp_030_bs128_nl4_nh8_ne256_bsz16_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 83.90253615379333,
+      "log_file": "experiments/member3/logs/exp_031_bs128_nl4_nh8_ne256_bsz16_mi50_dr0.1.log",
+      "member": "member3",
+      "exp_name": "exp_031_bs128_nl4_nh8_ne256_bsz16_mi50_dr0.1",
+      "config_path": "experiments/member3/configs/exp_031_bs128_nl4_nh8_ne256_bsz16_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 85.19670462608337,
+      "log_file": "experiments/member3/logs/exp_032_bs128_nl4_nh8_ne256_bsz16_mi50_dr0.2.log",
+      "member": "member3",
+      "exp_name": "exp_032_bs128_nl4_nh8_ne256_bsz16_mi50_dr0.2",
+      "config_path": "experiments/member3/configs/exp_032_bs128_nl4_nh8_ne256_bsz16_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 13.960917711257935,
+      "log_file": "experiments/member4/logs/exp_001_bs128_nl6_nh4_ne128_bsz8_mi25_dr0.1.log",
+      "member": "member4",
+      "exp_name": "exp_001_bs128_nl6_nh4_ne128_bsz8_mi25_dr0.1",
+      "config_path": "experiments/member4/configs/exp_001_bs128_nl6_nh4_ne128_bsz8_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 13.706038475036621,
+      "log_file": "experiments/member4/logs/exp_002_bs128_nl6_nh4_ne128_bsz8_mi25_dr0.2.log",
+      "member": "member4",
+      "exp_name": "exp_002_bs128_nl6_nh4_ne128_bsz8_mi25_dr0.2",
+      "config_path": "experiments/member4/configs/exp_002_bs128_nl6_nh4_ne128_bsz8_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 23.98315691947937,
+      "log_file": "experiments/member4/logs/exp_003_bs128_nl6_nh4_ne128_bsz8_mi50_dr0.1.log",
+      "member": "member4",
+      "exp_name": "exp_003_bs128_nl6_nh4_ne128_bsz8_mi50_dr0.1",
+      "config_path": "experiments/member4/configs/exp_003_bs128_nl6_nh4_ne128_bsz8_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 24.30325436592102,
+      "log_file": "experiments/member4/logs/exp_004_bs128_nl6_nh4_ne128_bsz8_mi50_dr0.2.log",
+      "member": "member4",
+      "exp_name": "exp_004_bs128_nl6_nh4_ne128_bsz8_mi50_dr0.2",
+      "config_path": "experiments/member4/configs/exp_004_bs128_nl6_nh4_ne128_bsz8_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 23.41686463356018,
+      "log_file": "experiments/member4/logs/exp_005_bs128_nl6_nh4_ne128_bsz16_mi25_dr0.1.log",
+      "member": "member4",
+      "exp_name": "exp_005_bs128_nl6_nh4_ne128_bsz16_mi25_dr0.1",
+      "config_path": "experiments/member4/configs/exp_005_bs128_nl6_nh4_ne128_bsz16_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 23.934679746627808,
+      "log_file": "experiments/member4/logs/exp_006_bs128_nl6_nh4_ne128_bsz16_mi25_dr0.2.log",
+      "member": "member4",
+      "exp_name": "exp_006_bs128_nl6_nh4_ne128_bsz16_mi25_dr0.2",
+      "config_path": "experiments/member4/configs/exp_006_bs128_nl6_nh4_ne128_bsz16_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 43.23389720916748,
+      "log_file": "experiments/member4/logs/exp_007_bs128_nl6_nh4_ne128_bsz16_mi50_dr0.1.log",
+      "member": "member4",
+      "exp_name": "exp_007_bs128_nl6_nh4_ne128_bsz16_mi50_dr0.1",
+      "config_path": "experiments/member4/configs/exp_007_bs128_nl6_nh4_ne128_bsz16_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 44.109124183654785,
+      "log_file": "experiments/member4/logs/exp_008_bs128_nl6_nh4_ne128_bsz16_mi50_dr0.2.log",
+      "member": "member4",
+      "exp_name": "exp_008_bs128_nl6_nh4_ne128_bsz16_mi50_dr0.2",
+      "config_path": "experiments/member4/configs/exp_008_bs128_nl6_nh4_ne128_bsz16_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 32.67489552497864,
+      "log_file": "experiments/member4/logs/exp_009_bs128_nl6_nh4_ne256_bsz8_mi25_dr0.1.log",
+      "member": "member4",
+      "exp_name": "exp_009_bs128_nl6_nh4_ne256_bsz8_mi25_dr0.1",
+      "config_path": "experiments/member4/configs/exp_009_bs128_nl6_nh4_ne256_bsz8_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 32.38220834732056,
+      "log_file": "experiments/member4/logs/exp_010_bs128_nl6_nh4_ne256_bsz8_mi25_dr0.2.log",
+      "member": "member4",
+      "exp_name": "exp_010_bs128_nl6_nh4_ne256_bsz8_mi25_dr0.2",
+      "config_path": "experiments/member4/configs/exp_010_bs128_nl6_nh4_ne256_bsz8_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 61.945396423339844,
+      "log_file": "experiments/member4/logs/exp_011_bs128_nl6_nh4_ne256_bsz8_mi50_dr0.1.log",
+      "member": "member4",
+      "exp_name": "exp_011_bs128_nl6_nh4_ne256_bsz8_mi50_dr0.1",
+      "config_path": "experiments/member4/configs/exp_011_bs128_nl6_nh4_ne256_bsz8_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 62.17172908782959,
+      "log_file": "experiments/member4/logs/exp_012_bs128_nl6_nh4_ne256_bsz8_mi50_dr0.2.log",
+      "member": "member4",
+      "exp_name": "exp_012_bs128_nl6_nh4_ne256_bsz8_mi50_dr0.2",
+      "config_path": "experiments/member4/configs/exp_012_bs128_nl6_nh4_ne256_bsz8_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 61.33410429954529,
+      "log_file": "experiments/member4/logs/exp_013_bs128_nl6_nh4_ne256_bsz16_mi25_dr0.1.log",
+      "member": "member4",
+      "exp_name": "exp_013_bs128_nl6_nh4_ne256_bsz16_mi25_dr0.1",
+      "config_path": "experiments/member4/configs/exp_013_bs128_nl6_nh4_ne256_bsz16_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 61.9849910736084,
+      "log_file": "experiments/member4/logs/exp_014_bs128_nl6_nh4_ne256_bsz16_mi25_dr0.2.log",
+      "member": "member4",
+      "exp_name": "exp_014_bs128_nl6_nh4_ne256_bsz16_mi25_dr0.2",
+      "config_path": "experiments/member4/configs/exp_014_bs128_nl6_nh4_ne256_bsz16_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 117.60155987739563,
+      "log_file": "experiments/member4/logs/exp_015_bs128_nl6_nh4_ne256_bsz16_mi50_dr0.1.log",
+      "member": "member4",
+      "exp_name": "exp_015_bs128_nl6_nh4_ne256_bsz16_mi50_dr0.1",
+      "config_path": "experiments/member4/configs/exp_015_bs128_nl6_nh4_ne256_bsz16_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 119.90618419647217,
+      "log_file": "experiments/member4/logs/exp_016_bs128_nl6_nh4_ne256_bsz16_mi50_dr0.2.log",
+      "member": "member4",
+      "exp_name": "exp_016_bs128_nl6_nh4_ne256_bsz16_mi50_dr0.2",
+      "config_path": "experiments/member4/configs/exp_016_bs128_nl6_nh4_ne256_bsz16_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 15.306387901306152,
+      "log_file": "experiments/member4/logs/exp_017_bs128_nl6_nh8_ne128_bsz8_mi25_dr0.1.log",
+      "member": "member4",
+      "exp_name": "exp_017_bs128_nl6_nh8_ne128_bsz8_mi25_dr0.1",
+      "config_path": "experiments/member4/configs/exp_017_bs128_nl6_nh8_ne128_bsz8_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 15.865623474121094,
+      "log_file": "experiments/member4/logs/exp_018_bs128_nl6_nh8_ne128_bsz8_mi25_dr0.2.log",
+      "member": "member4",
+      "exp_name": "exp_018_bs128_nl6_nh8_ne128_bsz8_mi25_dr0.2",
+      "config_path": "experiments/member4/configs/exp_018_bs128_nl6_nh8_ne128_bsz8_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 27.173363208770752,
+      "log_file": "experiments/member4/logs/exp_019_bs128_nl6_nh8_ne128_bsz8_mi50_dr0.1.log",
+      "member": "member4",
+      "exp_name": "exp_019_bs128_nl6_nh8_ne128_bsz8_mi50_dr0.1",
+      "config_path": "experiments/member4/configs/exp_019_bs128_nl6_nh8_ne128_bsz8_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 27.989583730697632,
+      "log_file": "experiments/member4/logs/exp_020_bs128_nl6_nh8_ne128_bsz8_mi50_dr0.2.log",
+      "member": "member4",
+      "exp_name": "exp_020_bs128_nl6_nh8_ne128_bsz8_mi50_dr0.2",
+      "config_path": "experiments/member4/configs/exp_020_bs128_nl6_nh8_ne128_bsz8_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 26.783396244049072,
+      "log_file": "experiments/member4/logs/exp_021_bs128_nl6_nh8_ne128_bsz16_mi25_dr0.1.log",
+      "member": "member4",
+      "exp_name": "exp_021_bs128_nl6_nh8_ne128_bsz16_mi25_dr0.1",
+      "config_path": "experiments/member4/configs/exp_021_bs128_nl6_nh8_ne128_bsz16_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 27.328480005264282,
+      "log_file": "experiments/member4/logs/exp_022_bs128_nl6_nh8_ne128_bsz16_mi25_dr0.2.log",
+      "member": "member4",
+      "exp_name": "exp_022_bs128_nl6_nh8_ne128_bsz16_mi25_dr0.2",
+      "config_path": "experiments/member4/configs/exp_022_bs128_nl6_nh8_ne128_bsz16_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 50.14606738090515,
+      "log_file": "experiments/member4/logs/exp_023_bs128_nl6_nh8_ne128_bsz16_mi50_dr0.1.log",
+      "member": "member4",
+      "exp_name": "exp_023_bs128_nl6_nh8_ne128_bsz16_mi50_dr0.1",
+      "config_path": "experiments/member4/configs/exp_023_bs128_nl6_nh8_ne128_bsz16_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 51.07429218292236,
+      "log_file": "experiments/member4/logs/exp_024_bs128_nl6_nh8_ne128_bsz16_mi50_dr0.2.log",
+      "member": "member4",
+      "exp_name": "exp_024_bs128_nl6_nh8_ne128_bsz16_mi50_dr0.2",
+      "config_path": "experiments/member4/configs/exp_024_bs128_nl6_nh8_ne128_bsz16_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 34.23398780822754,
+      "log_file": "experiments/member4/logs/exp_025_bs128_nl6_nh8_ne256_bsz8_mi25_dr0.1.log",
+      "member": "member4",
+      "exp_name": "exp_025_bs128_nl6_nh8_ne256_bsz8_mi25_dr0.1",
+      "config_path": "experiments/member4/configs/exp_025_bs128_nl6_nh8_ne256_bsz8_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 35.046305656433105,
+      "log_file": "experiments/member4/logs/exp_026_bs128_nl6_nh8_ne256_bsz8_mi25_dr0.2.log",
+      "member": "member4",
+      "exp_name": "exp_026_bs128_nl6_nh8_ne256_bsz8_mi25_dr0.2",
+      "config_path": "experiments/member4/configs/exp_026_bs128_nl6_nh8_ne256_bsz8_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 64.63901615142822,
+      "log_file": "experiments/member4/logs/exp_027_bs128_nl6_nh8_ne256_bsz8_mi50_dr0.1.log",
+      "member": "member4",
+      "exp_name": "exp_027_bs128_nl6_nh8_ne256_bsz8_mi50_dr0.1",
+      "config_path": "experiments/member4/configs/exp_027_bs128_nl6_nh8_ne256_bsz8_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 65.90758991241455,
+      "log_file": "experiments/member4/logs/exp_028_bs128_nl6_nh8_ne256_bsz8_mi50_dr0.2.log",
+      "member": "member4",
+      "exp_name": "exp_028_bs128_nl6_nh8_ne256_bsz8_mi50_dr0.2",
+      "config_path": "experiments/member4/configs/exp_028_bs128_nl6_nh8_ne256_bsz8_mi50_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 65.60930466651917,
+      "log_file": "experiments/member4/logs/exp_029_bs128_nl6_nh8_ne256_bsz16_mi25_dr0.1.log",
+      "member": "member4",
+      "exp_name": "exp_029_bs128_nl6_nh8_ne256_bsz16_mi25_dr0.1",
+      "config_path": "experiments/member4/configs/exp_029_bs128_nl6_nh8_ne256_bsz16_mi25_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 65.44500184059143,
+      "log_file": "experiments/member4/logs/exp_030_bs128_nl6_nh8_ne256_bsz16_mi25_dr0.2.log",
+      "member": "member4",
+      "exp_name": "exp_030_bs128_nl6_nh8_ne256_bsz16_mi25_dr0.2",
+      "config_path": "experiments/member4/configs/exp_030_bs128_nl6_nh8_ne256_bsz16_mi25_dr0.2.py"
+    },
+    {
+      "status": "success",
+      "duration": 125.05890464782715,
+      "log_file": "experiments/member4/logs/exp_031_bs128_nl6_nh8_ne256_bsz16_mi50_dr0.1.log",
+      "member": "member4",
+      "exp_name": "exp_031_bs128_nl6_nh8_ne256_bsz16_mi50_dr0.1",
+      "config_path": "experiments/member4/configs/exp_031_bs128_nl6_nh8_ne256_bsz16_mi50_dr0.1.py"
+    },
+    {
+      "status": "success",
+      "duration": 131.22902941703796,
+      "log_file": "experiments/member4/logs/exp_032_bs128_nl6_nh8_ne256_bsz16_mi50_dr0.2.log",
+      "member": "member4",
+      "exp_name": "exp_032_bs128_nl6_nh8_ne256_bsz16_mi50_dr0.2",
+      "config_path": "experiments/member4/configs/exp_032_bs128_nl6_nh8_ne256_bsz16_mi50_dr0.2.py"
+    }
+  ]
+}
